@@ -1,6 +1,8 @@
 import json
 import logging
 import os.path
+import operator
+
 def log_call(message):
     """Logs message into a logfile
     Usage: log_call(message)"""
@@ -61,27 +63,59 @@ def search(db, sort_by='start_date', sort_order='desc', techniques=None, search=
     #TODO: Dropdown menyer för techniques och search_fields
     log_call('search called')
     project_list = []
+    if search == None:
+        log_call('Search failed. No given string.')
+        return 'Nothing entered in the search field.'
     search_list = search.split(' ') #List of the searched words seperated with SPACE.
     for each in db: #Iterates through every project in the database
         for item in search_list:
-            if item in each.values() or item in each['techniques_used']: #Checks if item exists as a value in current project
-                print(each['project_name'])
-                try: #Check if search_fields is empty, if so each[search_fields] will result in an error and will skip searching with fields.
-                    if item in each[search_fields]:# If the search string was found in searched_filed.
-                        #project_list = compare_append(project_list, each)
-                        project_list.append(each)
-                except:
-                        project_list.append(each)
-                        #project_list = compare_append(project_list, each)
-                    # if each[i] in search_list:
-                    #    project_list.append(each[i])
+            if check_techniques(techniques, each) or techniques == None: #If techniques exists in 'techniques used' it will continue searching and if techniques used == None it will also continue searching
+                if item in each.values() or item in each['techniques_used']: #Checks if item exists as a value in current project
+                    if search_fields != None: #Check if search_fields is empty, if so each[search_fields].
+                        if item in each[search_fields]:# If the search string was found in searched_filed.
+                            project_list = compare_append(project_list, each)
+                    else:
+                        project_list = compare_append(project_list, each)
+    project_list = sort_project_list(project_list, sort_by, sort_order)
+    log_call(('Search ran successfully. Projects found:', len(project_list)))
     return project_list
     
 def compare_append(project_list, each):
-    if project_list == []:
+    """Compares the project list if it already has a certain project in it."""
+    if each not in project_list:
         project_list.append(each)
-    else:
-        for project in project_list:
-            if each['project_no'] != project['project_no']:
-                project_list.append(each)
+    log_call('compare_append(project_list, each) called from search()')
     return project_list
+
+
+def sort_project_list(project_list, sort_by , sort_order):
+    """Sorts the project_list that was found in the search function."""
+    if sort_order == 'desc': #This is done so that sorted() can reverse(or not reverse) the sort.
+        sort_order = True
+    elif sort_order == 'asc':
+        sort_order = False
+    project_list = sorted(project_list, key=operator.itemgetter(sort_by), reverse=sort_order) #sorts the project_list by "sort_by". reverse makes the sort order reverse or not.
+    log_call('sort_project_list(project_list, sort_by , sort_order) called from search()')
+    return project_list
+
+
+def check_techniques(techniques, each):
+    """checks if a technique exists in a project"""
+    try:
+        for each_technique in techniques:
+            if each_technique in str(each['techniques_used']):
+                return True
+    except:
+        return False
+
+def get_technique_stats(db):
+    """returns a dictionary with all used technique and a short info about the projects that used them"""
+    techniques_used = get_techniques(db)
+    tech_dict = {key : [] for key in get_techniques(db)}#creates a dict with the wanted structure
+    for each_project in db:
+        for each_technique in techniques_used:
+            if each_technique in each_project['techniques_used']: #If the technique is found within the project
+                tech_dict[each_technique] += [{'id' : each_project['project_no'], 'name' : each_project['project_name']}]#adds the project with its info found within the correct technique.
+    for tech in tech_dict:
+        tech_dict[tech].sort(key = lambda : l["name"] ) #sorts every technique in the list by the projects names.
+    return tech_dict
