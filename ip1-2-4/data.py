@@ -18,7 +18,7 @@ def log_call(message):
         logger.info(message)
 
 def load(filename):
-    """Loads and returns a data file
+    """Loads a json file  and returns a list with data
     Usage: load(filename)"""
     try:
         with open(filename) as json_file:
@@ -60,22 +60,35 @@ def get_techniques(db):
     return tech_list
 
 def search(db, sort_by='start_date', sort_order='desc', techniques=None, search=None, search_fields=None):
+    """search(db, sort_by='start_date', sort_order='desc', techniques=None, search=None, search_fields=None
+    Usage: 
+    -"db" should be the database
+    -"sort_by" should be the key that you want to sort by
+    -"sort_order" should be either 'desc' for descending or 'asc' for ascending
+    -"techniques" should be a list of the techniques you want to search in.
+    -"search" should be a string, search words seperated with SPACE ex: search='TDP003 2009-08-09'
+    -"search_fields" should be a list with the fields you want to search in ex search_fields=['project_name']"""
     #TODO: Dropdown menyer för techniques och search_fields
     log_call('search called')
     project_list = []
-    if search == None:
-        log_call('Search failed. No given string.')
-        return 'Nothing entered in the search field.'
-    search_list = search.split(' ') #List of the searched words seperated with SPACE.
-    for each in db: #Iterates through every project in the database
-        for item in search_list:
-            if check_techniques(techniques, each) or techniques == None: #If techniques exists in 'techniques used' it will continue searching and if techniques used == None it will also continue searching
-                if item in each.values() or item in each['techniques_used']: #Checks if item exists as a value in current project
-                    if search_fields != None: #Check if search_fields is empty, if so each[search_fields].
-                        if item in each[search_fields]:# If the search string was found in searched_filed.
+    search_list = []
+    if search != None: #If any search word has been entered
+        search_list = search.lower().split(' ') #List of the searched words seperated with SPACE and in lowercase so that we later can compare ignoring lower/uppercase.
+        for each in db: #Iterates through every project in the database
+            for item in search_list:
+                if check_techniques(techniques, each) or techniques == None: #If techniques exists in 'techniques used' it will continue searching and if techniques used == None it will also continue searching
+                    if item in [str(v).lower() for v in each.values()] or item in each['techniques_used']: #Checks if item exists as a value in current project, the list comprehension is used so that we ingnores upper/lowercase
+                        if search_fields != None: #Check if search_fields is empty, if so each[search_fields].
+                            for each_field in search_fields:
+                                if item in str(each[each_field]).lower():# If the search string was found in searched_filed.
+                                    project_list = compare_append(project_list, each)
+                        else:#if search fields is empty, it will simply try to append
                             project_list = compare_append(project_list, each)
-                    else:
-                        project_list = compare_append(project_list, each)
+    elif search_fields == None: # if search still == None it should still find the projects.
+        for each in db:
+            if check_techniques(techniques, each) or techniques == None: #If techniques exists in 'techniques used' it will continue searching and if techniques used == None it will also continue searching
+                project_list = compare_append(project_list, each)
+
     project_list = sort_project_list(project_list, sort_by, sort_order)
     log_call(('Search ran successfully. Projects found:', len(project_list)))
     return project_list
@@ -84,7 +97,7 @@ def compare_append(project_list, each):
     """Compares the project list if it already has a certain project in it."""
     if each not in project_list:
         project_list.append(each)
-    log_call('compare_append(project_list, each) called from search()')
+    #log_call('compare_append(project_list, each) called from search()')
     return project_list
 
 
@@ -95,12 +108,14 @@ def sort_project_list(project_list, sort_by , sort_order):
     elif sort_order == 'asc':
         sort_order = False
     project_list = sorted(project_list, key=operator.itemgetter(sort_by), reverse=sort_order) #sorts the project_list by "sort_by". reverse makes the sort order reverse or not.
-    log_call('sort_project_list(project_list, sort_by , sort_order) called from search()')
+   # log_call('sort_project_list(project_list, sort_by , sort_order) called from search()')
     return project_list
 
 
 def check_techniques(techniques, each):
     """checks if a technique exists in a project"""
+    if techniques == []:#if techniques is empty, it should be ignored and therefore return true.
+        return True
     try:
         for each_technique in techniques:
             if each_technique in str(each['techniques_used']):
@@ -117,5 +132,5 @@ def get_technique_stats(db):
             if each_technique in each_project['techniques_used']: #If the technique is found within the project
                 tech_dict[each_technique] += [{'id' : each_project['project_no'], 'name' : each_project['project_name']}]#adds the project with its info found within the correct technique.
     for tech in tech_dict:
-        tech_dict[tech].sort(key = lambda : l["name"] ) #sorts every technique in the list by the projects names.
+        tech_dict[tech].sort(key = lambda k: k["name"] ) #sorts every technique in the list by the projects names.
     return tech_dict
