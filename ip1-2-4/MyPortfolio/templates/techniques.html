@@ -1,0 +1,19 @@
+{% include 'header.html' %}
+<div class="on-wrapper">
+  <h1>
+    Tekniker
+  </h1>
+</div>
+<section class="wrapper">
+  {% for each_technique in techniques %}
+  <h1> {{ each_technique }} </h1>
+  {% for i in range(techniques[each_technique]|length) %}
+  <article class="box"></div>
+  <h3> {{ techniques[each_technique][i]['name'] }} </h3><!-- -->
+  <p>{{ project[i]['start_date'] }}</p>
+  </article>
+  {% endfor %}
+  {% endfor %}
+
+</section>
+{% include 'footer.html' %}
