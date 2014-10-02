@@ -30,11 +30,20 @@ def show_project(pid):
 
 @app.route('/search', methods = ['GET', 'POST'])
 def search_page():
-    return render_template("search.html", title = "search")
+    technique_dict = data.get_technique_stats(db)
+    return render_template("search.html", title = "search", techniques = technique_dict)
 
 @app.route('/search_results', methods = ['POST'])
 def show_results():
-    return render_template("search_results.html", title = "search results", sort = request.form['sort_by'], search_text = request.form['search-text'])
+    if request.form['search-text'] == '':
+        text = None
+    else:
+        text = request.form['search-text']
+    if request.form['techniques'] == '':
+        technique = None
+    else:
+        technique = [request.form['techniques']]
+    return render_template("search_results.html", title = "search results", sort = request.form['sort_by'], search_text = text, order = request.form['sort_order'], tech = technique)
 
 app.jinja_env.globals.update(search=search)
 app.jinja_env.globals.update(search_all=search_all)
