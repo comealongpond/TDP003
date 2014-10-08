@@ -1,0 +1,36 @@
+{% include 'header.html' %}
+<div class="full-width-image">
+  <!-- LINK TO LICENSE: http://creativecommons.org/licenses/by/2.5/ -->
+  <!-- LINK TO IMAGE: http://www.everystockphoto.com/photo.php?imageId=3359965&searchId=50b0a878c90b6df240e7cdf9cc028c58&npos=71 -->
+</div>
+<div class="on-wrapper">
+  <h1>
+    Startsida
+  </h1>
+</div>
+<!---->
+<section class="wrapper">
+  <section class="project-body">
+  <h1><span class="underline"> Välkommen </span></h1>
+  <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eget sagittis nisi, tincidunt varius neque. Suspendisse vitae neque eget elit aliquet sodales ac ac tellus. Vivamus vitae velit sed eros aliquet accumsan consectetur nec tellus. Aliquam in ipsum ac metus feugiat accumsan. Etiam fringilla dui eu cursus scelerisque. Curabitur est ipsum, ultricies eget magna a, maximus porttitor elit. Quisque libero lorem, posuere vel nunc ut, aliquet gravida augue.
+
+Nunc scelerisque libero magna, ut tempus arcu pellentesque eget. Donec odio nbh, cursus nec neque volutpat, pellentesque convallis massa. Fusce erat leo, varius et magna sed, iaculis efficitur ante. Sed maximus magna at luctus viverra. Cras feugiat velit in tempor vulputate. Phasellus a imperdiet nulla. Vestibulum mollis et quam a facilisis. Vestibulum placerat mi nec lobortis dapibus. Vivamus consequat quam tempus ex accumsan viverra. Aenean sed varius ipsum. Aliquam nec nunc interdum, feugiat orci quis, elementum lorem.</h3>
+  <br />
+  <h1 class="latest-heading underline"> Senaste Projektet </h1><br />
+  <article class="box">
+    <a class="project_link" href="../project/{{project['project_no'] }}">
+  <article class="box-half">
+    <img src="../static/images/{{project['small_image']}}" alt="image of project" width="100%" height="100%"/>
+  </article>
+  <article class="box-half">
+    <h3> Project name: {{ project['project_name'] }}</h3>
+    <p> Project id: {{ project['project_no'] }}</p>
+    <p> Start date: {{ project['start_date'] }} </p>
+    <p> Short description: {{ project['short_description'] }} </p>
+  </article>
+  </a>
+  </article>
+</section>
+</section>
+
+{% include 'footer.html' %}

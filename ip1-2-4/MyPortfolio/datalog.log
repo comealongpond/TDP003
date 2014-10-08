@@ -1,0 +1,39 @@
+2014-10-07 11:02:58,238 INFO get_techniques(database) returned 4 elements in a list
+2014-10-07 11:02:58,238 INFO search called
+2014-10-07 11:02:58,238 INFO ('Search ran successfully. Projects found:', 4)
+2014-10-07 11:02:58,239 INFO search called
+2014-10-07 11:02:58,239 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-07 11:02:58,239 INFO search called
+2014-10-07 11:02:58,239 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-07 11:02:58,239 INFO search called
+2014-10-07 11:02:58,240 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-07 11:02:58,240 INFO search called
+2014-10-07 11:02:58,241 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-07 11:02:58,241 INFO search called
+2014-10-07 11:02:58,242 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-07 11:02:58,242 INFO search called
+2014-10-07 11:02:58,243 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-07 11:02:58,243 INFO search called
+2014-10-07 11:02:58,244 INFO ('Search ran successfully. Projects found:', 3)
+2014-10-07 11:02:58,244 INFO search called
+2014-10-07 11:02:58,244 INFO ('Search ran successfully. Projects found:', 3)
+2014-10-07 11:02:58,244 INFO search called
+2014-10-07 11:02:58,245 INFO ('Search ran successfully. Projects found:', 3)
+2014-10-07 11:02:58,245 INFO search called
+2014-10-07 11:02:58,245 INFO ('Search ran successfully. Projects found:', 3)
+2014-10-07 11:02:58,245 INFO search called
+2014-10-07 11:02:58,245 INFO ('Search ran successfully. Projects found:', 3)
+2014-10-07 11:02:58,245 INFO search called
+2014-10-07 11:02:58,246 INFO ('Search ran successfully. Projects found:', 3)
+2014-10-07 11:02:58,246 INFO search called
+2014-10-07 11:02:58,246 INFO ('Search ran successfully. Projects found:', 3)
+2014-10-07 11:02:58,246 INFO search called
+2014-10-07 11:02:58,246 INFO ('Search ran successfully. Projects found:', 3)
+2014-10-07 11:02:58,247 INFO search called
+2014-10-07 11:02:58,247 INFO ('Search ran successfully. Projects found:', 3)
+2014-10-07 11:02:58,247 INFO search called
+2014-10-07 11:02:58,247 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-07 11:02:58,247 INFO search called
+2014-10-07 11:02:58,248 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-07 11:02:58,248 INFO search called
+2014-10-07 11:02:58,248 INFO ('Search ran successfully. Projects found:', 1)
