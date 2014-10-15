@@ -29,6 +29,7 @@ def search_all(sort_by='start_date', sort_order='desc', techniques=None, search=
 def show_project(pid):
     db = data.load('data.json')
     project_var = data.search(db, search=str(pid), search_fields=['project_no'])
+    print(project_var)
     return render_template("project.html", title="project <pid>", projectid = pid, project = project_var)
 
 @app.route('/search', methods = ['GET', 'POST'])
