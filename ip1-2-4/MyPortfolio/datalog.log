@@ -1,39 +1,52 @@
-2014-10-07 11:02:58,238 INFO get_techniques(database) returned 4 elements in a list
-2014-10-07 11:02:58,238 INFO search called
-2014-10-07 11:02:58,238 INFO ('Search ran successfully. Projects found:', 4)
-2014-10-07 11:02:58,239 INFO search called
-2014-10-07 11:02:58,239 INFO ('Search ran successfully. Projects found:', 1)
-2014-10-07 11:02:58,239 INFO search called
-2014-10-07 11:02:58,239 INFO ('Search ran successfully. Projects found:', 1)
-2014-10-07 11:02:58,239 INFO search called
-2014-10-07 11:02:58,240 INFO ('Search ran successfully. Projects found:', 1)
-2014-10-07 11:02:58,240 INFO search called
-2014-10-07 11:02:58,241 INFO ('Search ran successfully. Projects found:', 1)
-2014-10-07 11:02:58,241 INFO search called
-2014-10-07 11:02:58,242 INFO ('Search ran successfully. Projects found:', 1)
-2014-10-07 11:02:58,242 INFO search called
-2014-10-07 11:02:58,243 INFO ('Search ran successfully. Projects found:', 1)
-2014-10-07 11:02:58,243 INFO search called
-2014-10-07 11:02:58,244 INFO ('Search ran successfully. Projects found:', 3)
-2014-10-07 11:02:58,244 INFO search called
-2014-10-07 11:02:58,244 INFO ('Search ran successfully. Projects found:', 3)
-2014-10-07 11:02:58,244 INFO search called
-2014-10-07 11:02:58,245 INFO ('Search ran successfully. Projects found:', 3)
-2014-10-07 11:02:58,245 INFO search called
-2014-10-07 11:02:58,245 INFO ('Search ran successfully. Projects found:', 3)
-2014-10-07 11:02:58,245 INFO search called
-2014-10-07 11:02:58,245 INFO ('Search ran successfully. Projects found:', 3)
-2014-10-07 11:02:58,245 INFO search called
-2014-10-07 11:02:58,246 INFO ('Search ran successfully. Projects found:', 3)
-2014-10-07 11:02:58,246 INFO search called
-2014-10-07 11:02:58,246 INFO ('Search ran successfully. Projects found:', 3)
-2014-10-07 11:02:58,246 INFO search called
-2014-10-07 11:02:58,246 INFO ('Search ran successfully. Projects found:', 3)
-2014-10-07 11:02:58,247 INFO search called
-2014-10-07 11:02:58,247 INFO ('Search ran successfully. Projects found:', 3)
-2014-10-07 11:02:58,247 INFO search called
-2014-10-07 11:02:58,247 INFO ('Search ran successfully. Projects found:', 1)
-2014-10-07 11:02:58,247 INFO search called
-2014-10-07 11:02:58,248 INFO ('Search ran successfully. Projects found:', 1)
-2014-10-07 11:02:58,248 INFO search called
-2014-10-07 11:02:58,248 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-15 12:04:35,378 WARNING Expecting ',' delimiter: line 10 column 5 (char 218) in database file
+2014-10-15 12:04:35,379 INFO search called
+2014-10-15 12:04:35,385 INFO 127.0.0.1 - - [15/Oct/2014 12:04:35] "GET / HTTP/1.1" 500 -
+2014-10-15 12:04:35,406 INFO 127.0.0.1 - - [15/Oct/2014 12:04:35] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2014-10-15 12:04:35,407 INFO 127.0.0.1 - - [15/Oct/2014 12:04:35] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2014-10-15 12:04:35,409 INFO 127.0.0.1 - - [15/Oct/2014 12:04:35] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2014-10-15 12:04:35,426 INFO 127.0.0.1 - - [15/Oct/2014 12:04:35] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2014-10-15 12:04:35,428 INFO 127.0.0.1 - - [15/Oct/2014 12:04:35] "GET /?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+2014-10-15 12:04:35,457 INFO 127.0.0.1 - - [15/Oct/2014 12:04:35] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2014-10-15 12:05:37,724 WARNING Invalid control character at: line 6 column 28 (char 129) in database file
+2014-10-15 12:05:37,724 INFO search called
+2014-10-15 12:05:37,732 INFO 127.0.0.1 - - [15/Oct/2014 12:05:37] "GET / HTTP/1.1" 500 -
+2014-10-15 12:05:37,747 INFO 127.0.0.1 - - [15/Oct/2014 12:05:37] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2014-10-15 12:05:37,749 INFO 127.0.0.1 - - [15/Oct/2014 12:05:37] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2014-10-15 12:05:37,750 INFO 127.0.0.1 - - [15/Oct/2014 12:05:37] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2014-10-15 12:05:37,777 INFO 127.0.0.1 - - [15/Oct/2014 12:05:37] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2014-10-15 12:05:37,779 INFO 127.0.0.1 - - [15/Oct/2014 12:05:37] "GET /?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+2014-10-15 12:05:37,806 INFO 127.0.0.1 - - [15/Oct/2014 12:05:37] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2014-10-15 12:06:15,992 INFO  * Detected change in '/home/eried975/TDP003/MyPortfolio/ip1-2-4/MyPortfolio/data.py', reloading
+2014-10-15 12:12:22,312 WARNING Database file was not found!
+2014-10-15 12:12:22,313 INFO search called
+2014-10-15 12:12:22,325 INFO 127.0.0.1 - - [15/Oct/2014 12:12:22] "GET / HTTP/1.1" 500 -
+2014-10-15 12:12:22,336 INFO 127.0.0.1 - - [15/Oct/2014 12:12:22] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2014-10-15 12:12:22,341 INFO 127.0.0.1 - - [15/Oct/2014 12:12:22] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2014-10-15 12:12:22,343 INFO 127.0.0.1 - - [15/Oct/2014 12:12:22] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2014-10-15 12:12:22,361 INFO 127.0.0.1 - - [15/Oct/2014 12:12:22] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2014-10-15 12:12:22,363 INFO 127.0.0.1 - - [15/Oct/2014 12:12:22] "GET /?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+2014-10-15 12:12:22,387 INFO 127.0.0.1 - - [15/Oct/2014 12:12:22] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2014-10-15 12:13:30,683 INFO load(data.json)
+2014-10-15 12:13:30,683 INFO search called
+2014-10-15 12:13:30,683 INFO ('Search ran successfully. Projects found:', 4)
+2014-10-15 12:13:30,695 INFO 127.0.0.1 - - [15/Oct/2014 12:13:30] "GET / HTTP/1.1" 200 -
+2014-10-15 12:13:30,706 INFO 127.0.0.1 - - [15/Oct/2014 12:13:30] "GET /static/style/main.css HTTP/1.1" 304 -
+2014-10-15 12:13:30,722 INFO 127.0.0.1 - - [15/Oct/2014 12:13:30] "GET /static/images/asian.jpg HTTP/1.1" 404 -
+2014-10-15 12:13:30,759 INFO 127.0.0.1 - - [15/Oct/2014 12:13:30] "GET /static/images/startpage-big-image.jpg HTTP/1.1" 200 -
+2014-10-15 12:14:30,165 INFO load(data.json)
+2014-10-15 12:14:30,166 INFO search called
+2014-10-15 12:14:30,166 INFO ('Search ran successfully. Projects found:', 4)
+2014-10-15 12:14:30,167 INFO 127.0.0.1 - - [15/Oct/2014 12:14:30] "GET / HTTP/1.1" 200 -
+2014-10-15 12:14:30,183 INFO 127.0.0.1 - - [15/Oct/2014 12:14:30] "GET /static/images/asian.jpg HTTP/1.1" 404 -
+2014-10-15 12:14:31,034 INFO load(data.json)
+2014-10-15 12:14:31,034 INFO get_techniques(database) returned 4 elements in a list
+2014-10-15 12:14:31,034 INFO get_techniques(database) returned 4 elements in a list
+2014-10-15 12:14:31,045 INFO load(data.json)
+2014-10-15 12:14:31,045 INFO search called
+2014-10-15 12:14:31,045 INFO ('Search ran successfully. Projects found:', 4)
+2014-10-15 12:14:31,046 INFO 127.0.0.1 - - [15/Oct/2014 12:14:31] "GET /search HTTP/1.1" 200 -
+2014-10-15 12:14:31,058 INFO 127.0.0.1 - - [15/Oct/2014 12:14:31] "GET /static/images/asian.jpg HTTP/1.1" 404 -
+2014-10-15 12:14:31,059 INFO 127.0.0.1 - - [15/Oct/2014 12:14:31] "GET /static/images/nature-face.jpg HTTP/1.1" 404 -
+2014-10-15 12:14:31,061 INFO 127.0.0.1 - - [15/Oct/2014 12:14:31] "GET /static/images/nature-eye.jpg HTTP/1.1" 404 -
+2014-10-15 12:14:31,062 INFO 127.0.0.1 - - [15/Oct/2014 12:14:31] "GET /static/images/nature.jpg HTTP/1.1" 404 -
+2014-10-15 12:19:49,275 INFO  * Detected change in '/home/eried975/TDP003/MyPortfolio/ip1-2-4/MyPortfolio/data.py', reloading

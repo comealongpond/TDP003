@@ -1,21 +1,17 @@
 import json
 import logging
+import logging.config
 import os.path
 import operator
 
-def log_call(message):
+def log_call(message, type_of = 'info'):
     """Logs message into a logfile
     Usage: log_call(message)"""
-    logger = logging.getLogger('datalog')
-    if os.path.isfile('datalog.log'):
-        logger.info(message)
-    else: #If log-file does not exists, it will create a new one.
-        hdlr = logging.FileHandler('datalog.log') #creates the file
-        formatter = logging.Formatter('%(asctime)s %(levelname)s %(message)s')
-        logger.setLevel(logging.INFO)
-        logger.info(message)
-        hdlr.setFormatter(formatter)
-        logger.addHandler(hdlr)
+    type_of_list = {'info' : logging.info, 'warning' : logging.warning}
+    logging.basicConfig(filename = 'datalog.log', level = logging.INFO , format='%(asctime)s %(levelname)s %(message)s')
+    #logging.warning(message)
+    type_of_list[type_of](message)
+    logging.debug(message)
 
 def load(filename):
     """Loads a json file  and returns a list with data
@@ -25,8 +21,11 @@ def load(filename):
             json_data = json.load(json_file)
             log_call('load(' + filename + ')')
             return json_data
-    except:
+    except ValueError as e:
+        log_call((str(e) +' in database file') , 'warning')
         log_call('load(' + filename + ') failed. file does not exist.')
+    except FileNotFoundError:
+        log_call('Database file was not found!', 'warning')
 
 def get_project_count(db):
     """Returns the number of projects in the database
