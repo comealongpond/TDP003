@@ -81,8 +81,6 @@ def search(db, sort_by='start_date', sort_order='desc', techniques=None, search=
                     if [str(v).lower() for v in each.values() if item in str(v).lower()] != [] or item in each['techniques_used']: #Checks if item exists as a value in current project, the list comprehension is used so that we ingnores upper/lowercase
                         if search_fields != None: #Check if search_fields is empty, if so each[search_fields].
                             for each_field in search_fields:
-                                #print([v.lower() for v in each[each_field].split(' ') if item in str(v.lower())])
-                                #if item == str(each[each_field]).lower():# If the search string was found in searched_filed.
                                 if [v for v in str(each[each_field]).split(' ') if item == str(v.lower())] != []:
                                     project_list = compare_append(project_list, each)
                         else:#if search fields is empty, it will simply try to append

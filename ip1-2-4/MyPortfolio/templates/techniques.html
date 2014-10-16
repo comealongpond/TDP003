@@ -13,13 +13,13 @@
   <article class="box">
     <a class="project_link" href="../project/{{techniques[each_technique][i]['id'] }}">
       <article class="box-half">
-	<img src="../static/images/{{(search(each_technique))[i]['small_image']}}" alt="image of project" width="100%" height="100%"/>
+	<img src="../static/images/{{(search(techniques[each_technique][i]['id']))['small_image']}}" alt="image of project" width="100%" height="100%"/>
       </article>
 	<article class="box-half">
 	  <h3> Project name: {{ techniques[each_technique][i]['name'] }}</h3>
 	  <p> Project id: {{ techniques[each_technique][i]['id'] }}</p>
-	  <p> Start date: {{ (search(each_technique))[i]['start_date'] }} </p>
-	  <p> Short description: {{ (search(each_technique))[i]['short_description'] }} </p>
+	  <p> Start date: {{ (search(techniques[each_technique][i]['id']))['start_date'] }} </p>
+	  <p> Short description: {{ (search(techniques[each_technique][i]['id']))['short_description'] }} </p>
 	</article>
     </a>
   </article>

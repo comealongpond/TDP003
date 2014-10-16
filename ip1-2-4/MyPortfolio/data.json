@@ -8,8 +8,8 @@
 	"course_name": "Calculating The Answer",
 	"short_description": "Projektet omfattar ett försök om 48,816 timmars arbete i att konstruera en maskin som kan ge det slutgiltiga svaret på den yttersta frågan om livet, universum och allting. Tyvärr slutade projektet inte som tänkt då programmet alltid returnerade 42.  ",
 	"long_description": "I ett försök att hitta svaret på den yttersta frågan, om livet, universum och allting, valde vi, en grupp om 10 personer, att konstruera ett program. Ett program avancerat nog att kalkylera och evaluera de miljontals variabler som detta innefattar, samt returnera svaret på ett enkelt och mänskligt förståeligt format.\\n\\nUnder de första 3 åren arbetade vi 10 fulltid med att konstruera flödesscheman, tänka ut variabler samt vilka möjliga funktioner detta projekt skulle innefatta.\\nMånga azgoter, fallande petunior och valar senare  kom vi fram till ett fungerande koncept som revolverar runt tanken att man itererar genom meningar i ett intervall av känslor. For meaning in da_feels.\\nMed tanke på allt som programmet skulle gå igenom tog den första körningen 10 år, men returnerade bara svaret 42. \\nDe 10 senaste åren har lagts på felsökning och effektiviserande av programmet, men det returnerar fortfarande enbart 42.\\nEfter att allas hjärnor blivit till äggröra skulle vi vilja avsluta med några väl valda ord, innan vi lägger ner projektet, citerade av Prostetnic Vogon Jeltz.\\n\\n'Oooo fläskige fontanell, din smet bestryker mig.\\nMed slibbfalusker ur en guttubral skrafån.\\nVid mina förfäders polyper vill jag skåda, hur mjälla kakakläckans ögon smäktar i sin låda,\\noch eljest dränk min grämjelses garott lim av torsk som aldrig förr!' ",
-	"small_image": "static/images/alest170_sign.jpg",
-	"big_image": "static/images/alest170_cube.jpg",
+	"small_image": "alest170_sign.jpg",
+	"big_image": "alest170_cube.jpg",
 	"group_size": 10,
 	"academic_credits": "9000",
 	"techniques_used": [
@@ -131,13 +131,13 @@
 	"group_size": 3,
 	"academic_credits": "6hp",
 	"external_link": "http://www.isy.liu.se/edu/kurs/TSEA83/projekt/",
-	"small_image": "images/gores530_frejo105_datorkonstruktion_big.jpg",
+	"small_image": "datorkonstruktion_small.jpg",
 	"techniques_used": [ "C++", "VHDL", "Java", "Assembler", "Mikrokod", "Kaffe" ],
 	"project_name": "Datorkonstruktion",
 	"course_id": "TDP003",
 	"end_date": "2014-05-16",
 	"project_no": 404,
-	"big_image": "images/gores530_frejo105_datorkonstruktion_big.jpg"
+	"big_image": "datorkonstruktion_big.jpg"
     },
     {
 	"start_date": "14-09-29",
@@ -147,7 +147,7 @@
 	"group_size": 2,
 	"academic_credits": "150,0",
 	"external_link": "http://wikipedia.org",
-	"small_image": "gusrin625_aleel401_ai_small.png",
+	"small_image": "ai_small.png",
 	"techniques_used": [
 	    "Python",
 	    "c++",
@@ -159,7 +159,7 @@
 	"course_id": "TDP003",
 	"end_date": "2016-09-06",
 	"project_no": 1,
-	"big_image": "gusrin625_aleel401_ai_big.png"
+	"big_image": "ai_big.png"
     },
     {
 	"start_date": "2014-10-02",
@@ -208,7 +208,7 @@
 	"academic_credits": "7.5 HP",
 	"lulz_had": "many very",
 	"external_link": "http://github.com/projectpump/pumpit",
-	"small_image": "http://moderaterna.net/danderyd/files/2014/03/cykelpump.jpg ",
+	"small_image": "cykelpump.jpg ",
 	"techniques_used": [
 	    "java",
 	    "obj-c"

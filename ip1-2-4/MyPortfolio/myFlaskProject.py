@@ -17,9 +17,9 @@ def render_techniques():
     technique_dict = data.get_technique_stats(db)
     return render_template("techniques.html", title = "Tekniker", techniques = technique_dict, projects = data.search(db))
     
-def search(techniqq):
+def search(fields):
     db = data.load('data.json')
-    return data.search(db, techniques=techniqq)
+    return data.search(db, search=str(fields) ,search_fields = ['project_no'])[0]
 
 def search_all(sort_by='start_date', sort_order='desc', techniques=None, search=None, search_fields=None):
     db = data.load('data.json')
