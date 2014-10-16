@@ -15152,3 +15152,10 @@
 2014-10-16 10:50:41,130 INFO search called
 2014-10-16 10:50:41,130 INFO ('Search ran successfully. Projects found:', 1)
 2014-10-16 10:50:41,131 INFO 127.0.0.1 - - [16/Oct/2014 10:50:41] "GET /techniques HTTP/1.1" 200 -
+2014-10-16 10:56:04,286 INFO load(data.json)
+2014-10-16 10:56:04,287 INFO search called
+2014-10-16 10:56:04,287 INFO ('Search ran successfully. Projects found:', 14)
+2014-10-16 10:56:04,297 INFO 127.0.0.1 - - [16/Oct/2014 10:56:04] "GET / HTTP/1.1" 200 -
+2014-10-16 10:56:04,308 INFO 127.0.0.1 - - [16/Oct/2014 10:56:04] "GET /static/style/main.css HTTP/1.1" 304 -
+2014-10-16 10:56:04,311 INFO 127.0.0.1 - - [16/Oct/2014 10:56:04] "GET /static/images/cykelpump.jpg HTTP/1.1" 304 -
+2014-10-16 10:56:04,352 INFO 127.0.0.1 - - [16/Oct/2014 10:56:04] "GET /static/images/startpage-big-image.jpg HTTP/1.1" 200 -
