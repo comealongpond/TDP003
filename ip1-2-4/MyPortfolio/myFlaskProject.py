@@ -32,27 +32,26 @@ def show_project(pid):
     print(project_var)
     return render_template("project.html", title="project <pid>", projectid = pid, project = project_var)
 
-@app.route('/search', methods = ['GET', 'POST'])
+@app.route('/list', methods = ['GET', 'POST'])
 def search_page():
     db = data.load('data.json')
     technique_dict = data.get_technique_stats(db)
-    return render_template("search.html", title = "search", techniques = technique_dict)
-
-@app.route('/search_results', methods = ['POST'])
-def show_results():
-    if request.form['search-text'] == '':
-        text = None
+    if request.method == 'POST':
+        if request.form['search-text'] == '':
+            text = None
+        else:
+            text = request.form['search-text']
+        if request.form.getlist('techniques') == []:
+            technique = None
+        else:
+            technique = request.form.getlist('techniques')
+        if request.form.getlist('fields') == []:
+            search_fields = None
+        else:
+            search_fields = request.form.getlist('fields')
+        return render_template("search.html", title = "search", techniques = technique_dict , sort=request.form['sort_by'], search_text = text, order = request.form['sort_order'] , tech = technique, search_field = search_fields, header = 'Search Results')
     else:
-        text = request.form['search-text']
-    if request.form.getlist('techniques') == []:
-        technique = None
-    else:
-        technique = request.form.getlist('techniques')
-    if request.form.getlist('fields') == []:
-        search_fields = None
-    else:
-        search_fields = request.form.getlist('fields')
-    return render_template("search_results.html", title = "search results", sort = request.form['sort_by'], search_text = text, order = request.form['sort_order'], tech = technique, search_field = search_fields)
+        return render_template("search.html", title = "search", techniques = technique_dict , sort='start_date' , search_text = None, order = 'desc' , tech = None, search_field = None, header = 'All Projects')
 
 app.jinja_env.globals.update(search=search)
 app.jinja_env.globals.update(search_all=search_all)

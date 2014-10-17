@@ -8,7 +8,7 @@
 <section class="wrapper">
 <section class="search-form">
  <h2>Search for projects. Leave all fields blank to list all projects.</h2><br />
-<form method="post" action="/search_results">
+<form method="post" action="/list">
   <input class="search-box" type="text" name="search-text" placeholder="Search text" autofocus />
   <select name="sort_by" value="start_date">
     <option value="start_date">Sort By</option>
@@ -43,11 +43,11 @@
 </form>
 </section>
 <br /><br /><br /><br /><br /><br />
-<h2 style="text-indent: 30px"> All projects </h2>
+<h2 style="text-indent: 30px"> {{ header }} </h2>
 <hr><br /><br />
-{% set srch = search_all() %}
+ {% set srch = search_all(sort_by = sort, search = search_text, sort_order = order, techniques = tech, search_fields = search_field) %}
 {% if srch == [] %}
- <h2 class="search-form" >No projects found! <a href="/search">Try again</a></h2>
+ <h2 class="search-form" >No projects found!</h2>
 {% endif %}
  {% for each_project in srch %}
   <article class="box">
@@ -63,6 +63,7 @@
 	</article>
     </a>
     </article>
-  {% endfor %}
+ {% endfor %}
+
 </section>
 {% include 'footer.html' %}
