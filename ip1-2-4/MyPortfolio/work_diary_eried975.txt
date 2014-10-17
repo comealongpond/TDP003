@@ -1,6 +1,0 @@
-2014-16/10
-Idag har vi jobbat med att fixa lite buggar i systemet, saker vi inte tänkte på när datalagret skrevs. Det gick t.ex inte att göra en sökning på en mening med mer än ett ord. Nu fungerar det som det ska och vi är väldigt nöjda med resultatet. 
-
-Vi har även gjort så att loggingen till datalog.log fungerar betyligt bättre än förut. Den skriver dessutom ut mer information än tidigare. Användaren kan nu se i datalog.log precis vart ett fel inträffat i inläsningen av en JSON fil. T.ex om man har råkat göra ett <ENTER> loggas det ner precis vart det finns ett sånt tecken.
-
-Jag blev väldigt positivt överaskad hur bra det gick att felsöka och leta fram problemen vi stötte på. 
