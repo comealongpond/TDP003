@@ -30,7 +30,7 @@
 	"external_link": "www-und.ida.liu.se/~daner045/ShapeSurvival",
 	"small_image": "daner045_johlj260_shapesurvival_small.png",
 	"techniques_used": [
-	    "C++",
+	    "c++",
 	    "SDL",
 	    "Subversion"
 	],
@@ -132,7 +132,7 @@
 	"academic_credits": "6hp",
 	"external_link": "http://www.isy.liu.se/edu/kurs/TSEA83/projekt/",
 	"small_image": "datorkonstruktion_small.jpg",
-	"techniques_used": [ "C++", "VHDL", "Java", "Assembler", "Mikrokod", "Kaffe" ],
+	"techniques_used": [ "c++", "VHDL", "java", "Assembler", "Mikrokod", "Kaffe" ],
 	"project_name": "Datorkonstruktion",
 	"course_id": "TDP003",
 	"end_date": "2014-05-16",
@@ -149,7 +149,7 @@
 	"external_link": "http://wikipedia.org",
 	"small_image": "ai_small.png",
 	"techniques_used": [
-	    "Python",
+	    "python",
 	    "c++",
 	    "HTML",
 	    "CSS",
@@ -187,7 +187,7 @@
         "lulz_had": "för få",
         "end_date": "2014-10-01",
         "techniques_used": [
-	    "Photoshop", "Python"
+	    "Photoshop", "python"
         ],
         "start_date": "2014-10-01",
         "group_size": 1,
