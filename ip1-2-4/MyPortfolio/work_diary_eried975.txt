@@ -4,3 +4,12 @@ Idag har vi jobbat med att fixa lite buggar i systemet, saker vi inte tänkte p�
 Vi har även gjort så att loggingen till datalog.log fungerar betyligt bättre än förut. Den skriver dessutom ut mer information än tidigare. Användaren kan nu se i datalog.log precis vart ett fel inträffat i inläsningen av en JSON fil. T.ex om man har råkat göra ett <ENTER> loggas det ner precis vart det finns ett sånt tecken.
 
 Jag blev väldigt positivt överaskad hur bra det gick att felsöka och leta fram problemen vi stötte på. 
+
+2014-17/10
+
+Idag har vi dels skrivit klart kompleteringen för Installationsmanualen. Vi fick ett bra tips på hur vi kan slåihop två PDF filer, en med förstasidan samt en med resten av sidorna. Men varför ville vi göra så? Jo, vi har jobbat i drive av Google som gjort det smidigt för oss att skriva ett dokument tillsammans från avstånd. Problemet är att det inte riktigt går att formatera förstasidan som vi vill ha det och om vi försöker öppna dokumentet i libreoffice blir hela dokumentet fel. Därför gjorde vi första sidan i libreoffice och resten i drive sen slog vi ihop allt.
+
+Vi har dessutom fixat en bugg på tekniksidan som gjorde att fel data lästes in. Detta berodde på att vi använda oss av vår Flask funktion search som vi sedan kan använda i HTML och jinja.
+Då kan vi skicka in information till datalagret och få ut detta igen till presentationslagret. Problemet var att vi tänkt fel rent logiskt i funktionen. Vi skrev om den så att den returnerar rätt innehåll men också att den inte returnerar en lista utan en Dictionary som vi kan få fram den informationen vi vill ur.
+
+Det tog inte någon lång tid alls att lösa detta men det är klart att man blir lite frustrerad innan man börjat felsöka. Vilken tur att det går bra för oss med felsökningen så vi inte behöver lägga en allt för stor tid på att lösa problem.

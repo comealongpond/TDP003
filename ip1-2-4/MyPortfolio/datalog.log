@@ -19476,3 +19476,1001 @@
 2014-10-17 12:23:38,548 INFO search called
 2014-10-17 12:23:38,549 INFO ('Search ran successfully. Projects found:', 7)
 2014-10-17 12:23:38,549 INFO 127.0.0.1 - - [17/Oct/2014 12:23:38] "POST /list HTTP/1.1" 200 -
+2014-10-17 12:35:46,863 INFO load(data.json)
+2014-10-17 12:35:46,864 INFO search called
+2014-10-17 12:35:46,864 INFO ('Search ran successfully. Projects found:', 14)
+2014-10-17 12:35:46,878 INFO 127.0.0.1 - - [17/Oct/2014 12:35:46] "GET / HTTP/1.1" 200 -
+2014-10-17 12:35:47,700 INFO load(data.json)
+2014-10-17 12:35:47,700 INFO get_techniques(database) returned 30 elements in a list
+2014-10-17 12:35:47,700 INFO get_techniques(database) returned 30 elements in a list
+2014-10-17 12:35:47,715 INFO load(data.json)
+2014-10-17 12:35:47,715 INFO search called
+2014-10-17 12:35:47,716 INFO ('Search ran successfully. Projects found:', 14)
+2014-10-17 12:35:47,716 INFO 127.0.0.1 - - [17/Oct/2014 12:35:47] "GET /list HTTP/1.1" 200 -
+2014-10-17 12:35:49,151 INFO load(data.json)
+2014-10-17 12:35:49,151 INFO get_techniques(database) returned 30 elements in a list
+2014-10-17 12:35:49,151 INFO get_techniques(database) returned 30 elements in a list
+2014-10-17 12:35:49,154 INFO load(data.json)
+2014-10-17 12:35:49,154 INFO search called
+2014-10-17 12:35:49,154 INFO ('Search ran successfully. Projects found:', 7)
+2014-10-17 12:35:49,155 INFO 127.0.0.1 - - [17/Oct/2014 12:35:49] "POST /list HTTP/1.1" 200 -
+2014-10-18 23:41:44,174 INFO load(data.json)
+2014-10-18 23:41:44,175 INFO search called
+2014-10-18 23:41:44,175 INFO ('Search ran successfully. Projects found:', 14)
+2014-10-18 23:41:44,192 INFO 127.0.0.1 - - [18/Oct/2014 23:41:44] "GET / HTTP/1.1" 200 -
+2014-10-18 23:41:44,225 INFO 127.0.0.1 - - [18/Oct/2014 23:41:44] "GET /static/style/main.css HTTP/1.1" 200 -
+2014-10-18 23:41:44,229 INFO 127.0.0.1 - - [18/Oct/2014 23:41:44] "GET /static/images/cykelpump.jpg HTTP/1.1" 200 -
+2014-10-18 23:41:44,247 INFO 127.0.0.1 - - [18/Oct/2014 23:41:44] "GET /static/images/startpage-big-image.jpg HTTP/1.1" 200 -
+2014-10-18 23:41:44,353 INFO 127.0.0.1 - - [18/Oct/2014 23:41:44] "GET /favicon.ico HTTP/1.1" 404 -
+2014-10-18 23:42:12,466 INFO load(data.json)
+2014-10-18 23:42:12,466 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 23:42:12,467 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 23:42:12,486 INFO load(data.json)
+2014-10-18 23:42:12,486 INFO search called
+2014-10-18 23:42:12,487 INFO ('Search ran successfully. Projects found:', 14)
+2014-10-18 23:42:12,488 INFO 127.0.0.1 - - [18/Oct/2014 23:42:12] "GET /list HTTP/1.1" 200 -
+2014-10-18 23:42:12,526 INFO 127.0.0.1 - - [18/Oct/2014 23:42:12] "GET /static/images/hargr213rasjo332min.png HTTP/1.1" 200 -
+2014-10-18 23:42:12,536 INFO 127.0.0.1 - - [18/Oct/2014 23:42:12] "GET /static/images/tomli962-small_image_ss2014.png HTTP/1.1" 200 -
+2014-10-18 23:42:12,543 INFO 127.0.0.1 - - [18/Oct/2014 23:42:12] "GET /static/images/joagy323_for.gif HTTP/1.1" 200 -
+2014-10-18 23:42:12,548 INFO 127.0.0.1 - - [18/Oct/2014 23:42:12] "GET /static/images/m7jfac5.jpg HTTP/1.1" 200 -
+2014-10-18 23:42:12,553 INFO 127.0.0.1 - - [18/Oct/2014 23:42:12] "GET /static/images/datorkonstruktion_small.jpg HTTP/1.1" 200 -
+2014-10-18 23:42:12,557 INFO 127.0.0.1 - - [18/Oct/2014 23:42:12] "GET /static/images/fredu953-60x60_OilPaintingBlueReal_2f2d5a7359fc43bda61aa774c23584dd.jpg HTTP/1.1" 200 -
+2014-10-18 23:42:12,560 INFO 127.0.0.1 - - [18/Oct/2014 23:42:12] "GET /static/images/robca064_small_img_tompten.png HTTP/1.1" 200 -
+2014-10-18 23:42:12,563 INFO 127.0.0.1 - - [18/Oct/2014 23:42:12] "GET /static/images/mkyivl.jpg HTTP/1.1" 200 -
+2014-10-18 23:42:12,606 INFO 127.0.0.1 - - [18/Oct/2014 23:42:12] "GET /static/images/calc_terminal.png HTTP/1.1" 200 -
+2014-10-18 23:42:12,610 INFO 127.0.0.1 - - [18/Oct/2014 23:42:12] "GET /static/images/daner045_johlj260_shapesurvival_small.png HTTP/1.1" 200 -
+2014-10-18 23:42:12,614 INFO 127.0.0.1 - - [18/Oct/2014 23:42:12] "GET /static/images/ccx.jpg HTTP/1.1" 200 -
+2014-10-18 23:42:12,619 INFO 127.0.0.1 - - [18/Oct/2014 23:42:12] "GET /static/images/alest170_sign.jpg HTTP/1.1" 200 -
+2014-10-18 23:42:12,624 INFO 127.0.0.1 - - [18/Oct/2014 23:42:12] "GET /static/images/ai_small.png HTTP/1.1" 200 -
+2014-10-18 23:42:20,557 INFO load(data.json)
+2014-10-18 23:42:20,558 INFO search called
+2014-10-18 23:42:20,558 INFO ('Search ran successfully. Projects found:', 14)
+2014-10-18 23:42:20,561 INFO 127.0.0.1 - - [18/Oct/2014 23:42:20] "GET / HTTP/1.1" 200 -
+2014-10-18 23:42:27,683 INFO load(data.json)
+2014-10-18 23:42:27,683 INFO search called
+2014-10-18 23:42:27,684 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:27,701 INFO 127.0.0.1 - - [18/Oct/2014 23:42:27] "GET /project/13 HTTP/1.1" 200 -
+2014-10-18 23:42:27,721 INFO 127.0.0.1 - - [18/Oct/2014 23:42:27] "GET /static/images/Cykelpump-Stockholm.jpg HTTP/1.1" 200 -
+2014-10-18 23:42:32,415 INFO load(data.json)
+2014-10-18 23:42:32,415 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 23:42:32,416 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 23:42:32,416 INFO search called
+2014-10-18 23:42:32,417 INFO ('Search ran successfully. Projects found:', 14)
+2014-10-18 23:42:32,443 INFO load(data.json)
+2014-10-18 23:42:32,444 INFO search called
+2014-10-18 23:42:32,444 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,445 INFO load(data.json)
+2014-10-18 23:42:32,445 INFO search called
+2014-10-18 23:42:32,446 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,446 INFO load(data.json)
+2014-10-18 23:42:32,446 INFO search called
+2014-10-18 23:42:32,447 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,447 INFO load(data.json)
+2014-10-18 23:42:32,447 INFO search called
+2014-10-18 23:42:32,448 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,448 INFO load(data.json)
+2014-10-18 23:42:32,449 INFO search called
+2014-10-18 23:42:32,449 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,450 INFO load(data.json)
+2014-10-18 23:42:32,450 INFO search called
+2014-10-18 23:42:32,450 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,451 INFO load(data.json)
+2014-10-18 23:42:32,451 INFO search called
+2014-10-18 23:42:32,451 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,452 INFO load(data.json)
+2014-10-18 23:42:32,452 INFO search called
+2014-10-18 23:42:32,453 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,453 INFO load(data.json)
+2014-10-18 23:42:32,453 INFO search called
+2014-10-18 23:42:32,454 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,454 INFO load(data.json)
+2014-10-18 23:42:32,454 INFO search called
+2014-10-18 23:42:32,455 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,455 INFO load(data.json)
+2014-10-18 23:42:32,456 INFO search called
+2014-10-18 23:42:32,456 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,457 INFO load(data.json)
+2014-10-18 23:42:32,457 INFO search called
+2014-10-18 23:42:32,457 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,458 INFO load(data.json)
+2014-10-18 23:42:32,458 INFO search called
+2014-10-18 23:42:32,458 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,459 INFO load(data.json)
+2014-10-18 23:42:32,459 INFO search called
+2014-10-18 23:42:32,459 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,460 INFO load(data.json)
+2014-10-18 23:42:32,460 INFO search called
+2014-10-18 23:42:32,461 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,461 INFO load(data.json)
+2014-10-18 23:42:32,461 INFO search called
+2014-10-18 23:42:32,462 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,462 INFO load(data.json)
+2014-10-18 23:42:32,462 INFO search called
+2014-10-18 23:42:32,463 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,463 INFO load(data.json)
+2014-10-18 23:42:32,464 INFO search called
+2014-10-18 23:42:32,464 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,465 INFO load(data.json)
+2014-10-18 23:42:32,465 INFO search called
+2014-10-18 23:42:32,465 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,466 INFO load(data.json)
+2014-10-18 23:42:32,466 INFO search called
+2014-10-18 23:42:32,467 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,468 INFO load(data.json)
+2014-10-18 23:42:32,468 INFO search called
+2014-10-18 23:42:32,469 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,470 INFO load(data.json)
+2014-10-18 23:42:32,470 INFO search called
+2014-10-18 23:42:32,471 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,471 INFO load(data.json)
+2014-10-18 23:42:32,471 INFO search called
+2014-10-18 23:42:32,472 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,472 INFO load(data.json)
+2014-10-18 23:42:32,472 INFO search called
+2014-10-18 23:42:32,473 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,473 INFO load(data.json)
+2014-10-18 23:42:32,474 INFO search called
+2014-10-18 23:42:32,474 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,475 INFO load(data.json)
+2014-10-18 23:42:32,475 INFO search called
+2014-10-18 23:42:32,475 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,476 INFO load(data.json)
+2014-10-18 23:42:32,476 INFO search called
+2014-10-18 23:42:32,476 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,477 INFO load(data.json)
+2014-10-18 23:42:32,477 INFO search called
+2014-10-18 23:42:32,478 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,478 INFO load(data.json)
+2014-10-18 23:42:32,478 INFO search called
+2014-10-18 23:42:32,479 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,479 INFO load(data.json)
+2014-10-18 23:42:32,480 INFO search called
+2014-10-18 23:42:32,480 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,481 INFO load(data.json)
+2014-10-18 23:42:32,481 INFO search called
+2014-10-18 23:42:32,481 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,482 INFO load(data.json)
+2014-10-18 23:42:32,482 INFO search called
+2014-10-18 23:42:32,482 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,483 INFO load(data.json)
+2014-10-18 23:42:32,483 INFO search called
+2014-10-18 23:42:32,484 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,484 INFO load(data.json)
+2014-10-18 23:42:32,484 INFO search called
+2014-10-18 23:42:32,485 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,485 INFO load(data.json)
+2014-10-18 23:42:32,486 INFO search called
+2014-10-18 23:42:32,486 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,486 INFO load(data.json)
+2014-10-18 23:42:32,487 INFO search called
+2014-10-18 23:42:32,487 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,488 INFO load(data.json)
+2014-10-18 23:42:32,488 INFO search called
+2014-10-18 23:42:32,488 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,489 INFO load(data.json)
+2014-10-18 23:42:32,489 INFO search called
+2014-10-18 23:42:32,489 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,490 INFO load(data.json)
+2014-10-18 23:42:32,490 INFO search called
+2014-10-18 23:42:32,491 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,491 INFO load(data.json)
+2014-10-18 23:42:32,491 INFO search called
+2014-10-18 23:42:32,492 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,492 INFO load(data.json)
+2014-10-18 23:42:32,492 INFO search called
+2014-10-18 23:42:32,493 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,493 INFO load(data.json)
+2014-10-18 23:42:32,494 INFO search called
+2014-10-18 23:42:32,494 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,495 INFO load(data.json)
+2014-10-18 23:42:32,495 INFO search called
+2014-10-18 23:42:32,495 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,496 INFO load(data.json)
+2014-10-18 23:42:32,496 INFO search called
+2014-10-18 23:42:32,497 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,498 INFO load(data.json)
+2014-10-18 23:42:32,498 INFO search called
+2014-10-18 23:42:32,499 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,499 INFO load(data.json)
+2014-10-18 23:42:32,499 INFO search called
+2014-10-18 23:42:32,500 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,500 INFO load(data.json)
+2014-10-18 23:42:32,501 INFO search called
+2014-10-18 23:42:32,501 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,502 INFO load(data.json)
+2014-10-18 23:42:32,502 INFO search called
+2014-10-18 23:42:32,502 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,503 INFO load(data.json)
+2014-10-18 23:42:32,503 INFO search called
+2014-10-18 23:42:32,503 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,504 INFO load(data.json)
+2014-10-18 23:42:32,504 INFO search called
+2014-10-18 23:42:32,504 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,505 INFO load(data.json)
+2014-10-18 23:42:32,505 INFO search called
+2014-10-18 23:42:32,506 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,506 INFO load(data.json)
+2014-10-18 23:42:32,506 INFO search called
+2014-10-18 23:42:32,507 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,507 INFO load(data.json)
+2014-10-18 23:42:32,507 INFO search called
+2014-10-18 23:42:32,508 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,508 INFO load(data.json)
+2014-10-18 23:42:32,509 INFO search called
+2014-10-18 23:42:32,509 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,510 INFO load(data.json)
+2014-10-18 23:42:32,510 INFO search called
+2014-10-18 23:42:32,510 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,511 INFO load(data.json)
+2014-10-18 23:42:32,511 INFO search called
+2014-10-18 23:42:32,511 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,512 INFO load(data.json)
+2014-10-18 23:42:32,512 INFO search called
+2014-10-18 23:42:32,512 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,513 INFO load(data.json)
+2014-10-18 23:42:32,513 INFO search called
+2014-10-18 23:42:32,514 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,514 INFO load(data.json)
+2014-10-18 23:42:32,514 INFO search called
+2014-10-18 23:42:32,515 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,515 INFO load(data.json)
+2014-10-18 23:42:32,515 INFO search called
+2014-10-18 23:42:32,516 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,517 INFO load(data.json)
+2014-10-18 23:42:32,517 INFO search called
+2014-10-18 23:42:32,517 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,518 INFO load(data.json)
+2014-10-18 23:42:32,518 INFO search called
+2014-10-18 23:42:32,518 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,519 INFO load(data.json)
+2014-10-18 23:42:32,519 INFO search called
+2014-10-18 23:42:32,519 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,520 INFO load(data.json)
+2014-10-18 23:42:32,520 INFO search called
+2014-10-18 23:42:32,521 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,521 INFO load(data.json)
+2014-10-18 23:42:32,521 INFO search called
+2014-10-18 23:42:32,522 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,522 INFO load(data.json)
+2014-10-18 23:42:32,523 INFO search called
+2014-10-18 23:42:32,523 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,524 INFO load(data.json)
+2014-10-18 23:42:32,524 INFO search called
+2014-10-18 23:42:32,524 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,525 INFO load(data.json)
+2014-10-18 23:42:32,525 INFO search called
+2014-10-18 23:42:32,525 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,526 INFO load(data.json)
+2014-10-18 23:42:32,526 INFO search called
+2014-10-18 23:42:32,527 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,527 INFO load(data.json)
+2014-10-18 23:42:32,528 INFO search called
+2014-10-18 23:42:32,528 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,529 INFO load(data.json)
+2014-10-18 23:42:32,530 INFO search called
+2014-10-18 23:42:32,530 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,531 INFO load(data.json)
+2014-10-18 23:42:32,531 INFO search called
+2014-10-18 23:42:32,531 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,532 INFO load(data.json)
+2014-10-18 23:42:32,532 INFO search called
+2014-10-18 23:42:32,533 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,533 INFO load(data.json)
+2014-10-18 23:42:32,533 INFO search called
+2014-10-18 23:42:32,534 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,534 INFO load(data.json)
+2014-10-18 23:42:32,534 INFO search called
+2014-10-18 23:42:32,535 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,536 INFO load(data.json)
+2014-10-18 23:42:32,536 INFO search called
+2014-10-18 23:42:32,536 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,537 INFO load(data.json)
+2014-10-18 23:42:32,537 INFO search called
+2014-10-18 23:42:32,537 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,538 INFO load(data.json)
+2014-10-18 23:42:32,538 INFO search called
+2014-10-18 23:42:32,539 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,539 INFO load(data.json)
+2014-10-18 23:42:32,539 INFO search called
+2014-10-18 23:42:32,540 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,540 INFO load(data.json)
+2014-10-18 23:42:32,540 INFO search called
+2014-10-18 23:42:32,541 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,542 INFO load(data.json)
+2014-10-18 23:42:32,542 INFO search called
+2014-10-18 23:42:32,542 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,543 INFO load(data.json)
+2014-10-18 23:42:32,543 INFO search called
+2014-10-18 23:42:32,543 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,544 INFO load(data.json)
+2014-10-18 23:42:32,544 INFO search called
+2014-10-18 23:42:32,545 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,545 INFO load(data.json)
+2014-10-18 23:42:32,545 INFO search called
+2014-10-18 23:42:32,546 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,546 INFO load(data.json)
+2014-10-18 23:42:32,547 INFO search called
+2014-10-18 23:42:32,547 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,548 INFO load(data.json)
+2014-10-18 23:42:32,548 INFO search called
+2014-10-18 23:42:32,548 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,549 INFO load(data.json)
+2014-10-18 23:42:32,549 INFO search called
+2014-10-18 23:42:32,549 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,550 INFO load(data.json)
+2014-10-18 23:42:32,550 INFO search called
+2014-10-18 23:42:32,551 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,551 INFO load(data.json)
+2014-10-18 23:42:32,551 INFO search called
+2014-10-18 23:42:32,552 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,552 INFO load(data.json)
+2014-10-18 23:42:32,553 INFO search called
+2014-10-18 23:42:32,553 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,554 INFO load(data.json)
+2014-10-18 23:42:32,554 INFO search called
+2014-10-18 23:42:32,554 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,555 INFO load(data.json)
+2014-10-18 23:42:32,555 INFO search called
+2014-10-18 23:42:32,555 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,556 INFO load(data.json)
+2014-10-18 23:42:32,556 INFO search called
+2014-10-18 23:42:32,557 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,557 INFO load(data.json)
+2014-10-18 23:42:32,557 INFO search called
+2014-10-18 23:42:32,558 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,559 INFO load(data.json)
+2014-10-18 23:42:32,560 INFO search called
+2014-10-18 23:42:32,560 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,561 INFO load(data.json)
+2014-10-18 23:42:32,561 INFO search called
+2014-10-18 23:42:32,561 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,562 INFO load(data.json)
+2014-10-18 23:42:32,562 INFO search called
+2014-10-18 23:42:32,563 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,563 INFO load(data.json)
+2014-10-18 23:42:32,563 INFO search called
+2014-10-18 23:42:32,564 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,564 INFO load(data.json)
+2014-10-18 23:42:32,564 INFO search called
+2014-10-18 23:42:32,565 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,566 INFO load(data.json)
+2014-10-18 23:42:32,566 INFO search called
+2014-10-18 23:42:32,566 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,567 INFO load(data.json)
+2014-10-18 23:42:32,567 INFO search called
+2014-10-18 23:42:32,567 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,568 INFO load(data.json)
+2014-10-18 23:42:32,568 INFO search called
+2014-10-18 23:42:32,568 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,569 INFO load(data.json)
+2014-10-18 23:42:32,569 INFO search called
+2014-10-18 23:42:32,570 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,570 INFO load(data.json)
+2014-10-18 23:42:32,570 INFO search called
+2014-10-18 23:42:32,571 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,571 INFO load(data.json)
+2014-10-18 23:42:32,571 INFO search called
+2014-10-18 23:42:32,572 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,572 INFO load(data.json)
+2014-10-18 23:42:32,573 INFO search called
+2014-10-18 23:42:32,573 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,574 INFO load(data.json)
+2014-10-18 23:42:32,574 INFO search called
+2014-10-18 23:42:32,574 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,575 INFO load(data.json)
+2014-10-18 23:42:32,575 INFO search called
+2014-10-18 23:42:32,575 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,576 INFO load(data.json)
+2014-10-18 23:42:32,576 INFO search called
+2014-10-18 23:42:32,577 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,577 INFO load(data.json)
+2014-10-18 23:42:32,577 INFO search called
+2014-10-18 23:42:32,578 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,578 INFO load(data.json)
+2014-10-18 23:42:32,578 INFO search called
+2014-10-18 23:42:32,579 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,579 INFO load(data.json)
+2014-10-18 23:42:32,580 INFO search called
+2014-10-18 23:42:32,580 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,581 INFO load(data.json)
+2014-10-18 23:42:32,581 INFO search called
+2014-10-18 23:42:32,581 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,582 INFO load(data.json)
+2014-10-18 23:42:32,582 INFO search called
+2014-10-18 23:42:32,583 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,583 INFO load(data.json)
+2014-10-18 23:42:32,583 INFO search called
+2014-10-18 23:42:32,584 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,584 INFO load(data.json)
+2014-10-18 23:42:32,584 INFO search called
+2014-10-18 23:42:32,585 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,585 INFO load(data.json)
+2014-10-18 23:42:32,586 INFO search called
+2014-10-18 23:42:32,586 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,587 INFO load(data.json)
+2014-10-18 23:42:32,587 INFO search called
+2014-10-18 23:42:32,587 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,588 INFO load(data.json)
+2014-10-18 23:42:32,588 INFO search called
+2014-10-18 23:42:32,589 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,590 INFO load(data.json)
+2014-10-18 23:42:32,590 INFO search called
+2014-10-18 23:42:32,591 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,591 INFO load(data.json)
+2014-10-18 23:42:32,591 INFO search called
+2014-10-18 23:42:32,592 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,592 INFO load(data.json)
+2014-10-18 23:42:32,593 INFO search called
+2014-10-18 23:42:32,593 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,594 INFO load(data.json)
+2014-10-18 23:42:32,594 INFO search called
+2014-10-18 23:42:32,594 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:42:32,595 INFO 127.0.0.1 - - [18/Oct/2014 23:42:32] "GET /techniques HTTP/1.1" 200 -
+2014-10-18 23:42:40,416 INFO load(data.json)
+2014-10-18 23:42:40,417 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 23:42:40,417 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 23:42:40,420 INFO load(data.json)
+2014-10-18 23:42:40,421 INFO search called
+2014-10-18 23:42:40,422 INFO ('Search ran successfully. Projects found:', 14)
+2014-10-18 23:42:40,424 INFO 127.0.0.1 - - [18/Oct/2014 23:42:40] "GET /list HTTP/1.1" 200 -
+2014-10-18 23:42:48,234 INFO load(data.json)
+2014-10-18 23:42:48,234 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 23:42:48,235 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 23:42:48,238 INFO load(data.json)
+2014-10-18 23:42:48,239 INFO search called
+2014-10-18 23:42:48,240 INFO ('Search ran successfully. Projects found:', 7)
+2014-10-18 23:42:48,241 INFO 127.0.0.1 - - [18/Oct/2014 23:42:48] "POST /list HTTP/1.1" 200 -
+2014-10-18 23:43:03,420 INFO load(data.json)
+2014-10-18 23:43:03,421 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 23:43:03,421 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 23:43:03,426 INFO load(data.json)
+2014-10-18 23:43:03,426 INFO search called
+2014-10-18 23:43:03,428 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:43:03,429 INFO 127.0.0.1 - - [18/Oct/2014 23:43:03] "POST /list HTTP/1.1" 200 -
+2014-10-18 23:43:22,933 INFO load(data.json)
+2014-10-18 23:43:22,933 INFO search called
+2014-10-18 23:43:22,934 INFO ('Search ran successfully. Projects found:', 14)
+2014-10-18 23:43:22,936 INFO 127.0.0.1 - - [18/Oct/2014 23:43:22] "GET / HTTP/1.1" 200 -
+2014-10-18 23:43:42,749 INFO load(data.json)
+2014-10-18 23:43:42,749 INFO search called
+2014-10-18 23:43:42,750 INFO ('Search ran successfully. Projects found:', 14)
+2014-10-18 23:43:42,751 INFO 127.0.0.1 - - [18/Oct/2014 23:43:42] "GET / HTTP/1.1" 200 -
+2014-10-18 23:45:16,685 INFO load(data.json)
+2014-10-18 23:45:16,685 INFO search called
+2014-10-18 23:45:16,685 INFO ('Search ran successfully. Projects found:', 14)
+2014-10-18 23:45:16,686 INFO 127.0.0.1 - - [18/Oct/2014 23:45:16] "GET / HTTP/1.1" 200 -
+2014-10-18 23:45:16,746 INFO 127.0.0.1 - - [18/Oct/2014 23:45:16] "GET /static/style/main.css HTTP/1.1" 200 -
+2014-10-18 23:45:16,749 INFO 127.0.0.1 - - [18/Oct/2014 23:45:16] "GET /static/images/cykelpump.jpg HTTP/1.1" 200 -
+2014-10-18 23:45:16,945 INFO 127.0.0.1 - - [18/Oct/2014 23:45:16] "GET /static/images/startpage-big-image.jpg HTTP/1.1" 200 -
+2014-10-18 23:45:17,030 INFO 127.0.0.1 - - [18/Oct/2014 23:45:17] "GET /favicon.ico HTTP/1.1" 404 -
+2014-10-18 23:46:25,085 INFO load(data.json)
+2014-10-18 23:46:25,085 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 23:46:25,086 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 23:46:25,090 INFO load(data.json)
+2014-10-18 23:46:25,091 INFO search called
+2014-10-18 23:46:25,091 INFO ('Search ran successfully. Projects found:', 14)
+2014-10-18 23:46:25,092 INFO 127.0.0.1 - - [18/Oct/2014 23:46:25] "GET /list HTTP/1.1" 200 -
+2014-10-18 23:46:27,865 INFO load(data.json)
+2014-10-18 23:46:27,866 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 23:46:27,866 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 23:46:27,870 INFO load(data.json)
+2014-10-18 23:46:27,870 INFO search called
+2014-10-18 23:46:27,872 INFO ('Search ran successfully. Projects found:', 7)
+2014-10-18 23:46:27,873 INFO 127.0.0.1 - - [18/Oct/2014 23:46:27] "POST /list HTTP/1.1" 200 -
+2014-10-18 23:46:34,350 INFO load(data.json)
+2014-10-18 23:46:34,351 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 23:46:34,351 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 23:46:34,354 INFO load(data.json)
+2014-10-18 23:46:34,354 INFO search called
+2014-10-18 23:46:34,356 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:46:34,357 INFO 127.0.0.1 - - [18/Oct/2014 23:46:34] "POST /list HTTP/1.1" 200 -
+2014-10-18 23:46:40,810 INFO load(data.json)
+2014-10-18 23:46:40,811 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 23:46:40,811 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 23:46:40,815 INFO load(data.json)
+2014-10-18 23:46:40,816 INFO search called
+2014-10-18 23:46:40,817 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:46:40,818 INFO 127.0.0.1 - - [18/Oct/2014 23:46:40] "POST /list HTTP/1.1" 200 -
+2014-10-18 23:46:40,888 INFO 127.0.0.1 - - [18/Oct/2014 23:46:40] "GET /static/images/mkyivl.jpg HTTP/1.1" 200 -
+2014-10-18 23:46:48,496 INFO load(data.json)
+2014-10-18 23:46:48,496 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 23:46:48,496 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 23:46:48,498 INFO load(data.json)
+2014-10-18 23:46:48,498 INFO search called
+2014-10-18 23:46:48,499 INFO ('Search ran successfully. Projects found:', 8)
+2014-10-18 23:46:48,500 INFO 127.0.0.1 - - [18/Oct/2014 23:46:48] "POST /list HTTP/1.1" 200 -
+2014-10-18 23:46:58,580 INFO load(data.json)
+2014-10-18 23:46:58,582 INFO search called
+2014-10-18 23:46:58,583 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:46:58,584 INFO 127.0.0.1 - - [18/Oct/2014 23:46:58] "GET /project/723728 HTTP/1.1" 200 -
+2014-10-18 23:46:58,607 INFO 127.0.0.1 - - [18/Oct/2014 23:46:58] "GET /static/images/tomli962-big_image_ss2014.png HTTP/1.1" 200 -
+2014-10-18 23:47:11,382 INFO load(data.json)
+2014-10-18 23:47:11,383 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 23:47:11,384 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 23:47:11,387 INFO load(data.json)
+2014-10-18 23:47:11,387 INFO search called
+2014-10-18 23:47:11,387 INFO ('Search ran successfully. Projects found:', 14)
+2014-10-18 23:47:11,389 INFO 127.0.0.1 - - [18/Oct/2014 23:47:11] "GET /list HTTP/1.1" 200 -
+2014-10-18 23:47:11,565 INFO load(data.json)
+2014-10-18 23:47:11,566 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 23:47:11,566 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 23:47:11,567 INFO load(data.json)
+2014-10-18 23:47:11,567 INFO search called
+2014-10-18 23:47:11,568 INFO ('Search ran successfully. Projects found:', 14)
+2014-10-18 23:47:11,569 INFO 127.0.0.1 - - [18/Oct/2014 23:47:11] "GET /list HTTP/1.1" 200 -
+2014-10-18 23:47:13,432 INFO load(data.json)
+2014-10-18 23:47:13,432 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 23:47:13,433 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 23:47:13,436 INFO load(data.json)
+2014-10-18 23:47:13,437 INFO search called
+2014-10-18 23:47:13,438 INFO ('Search ran successfully. Projects found:', 2)
+2014-10-18 23:47:13,439 INFO 127.0.0.1 - - [18/Oct/2014 23:47:13] "POST /list HTTP/1.1" 200 -
+2014-10-18 23:47:18,525 INFO load(data.json)
+2014-10-18 23:47:18,526 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 23:47:18,526 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 23:47:18,529 INFO load(data.json)
+2014-10-18 23:47:18,529 INFO search called
+2014-10-18 23:47:18,530 INFO ('Search ran successfully. Projects found:', 14)
+2014-10-18 23:47:18,532 INFO 127.0.0.1 - - [18/Oct/2014 23:47:18] "POST /list HTTP/1.1" 200 -
+2014-10-18 23:47:18,580 INFO 127.0.0.1 - - [18/Oct/2014 23:47:18] "GET /static/images/mkyivl.jpg HTTP/1.1" 200 -
+2014-10-18 23:47:34,966 INFO load(data.json)
+2014-10-18 23:47:34,966 INFO search called
+2014-10-18 23:47:34,966 INFO ('Search ran successfully. Projects found:', 14)
+2014-10-18 23:47:34,967 INFO 127.0.0.1 - - [18/Oct/2014 23:47:34] "GET / HTTP/1.1" 200 -
+2014-10-18 23:47:43,221 INFO load(data.json)
+2014-10-18 23:47:43,222 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 23:47:43,222 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 23:47:43,225 INFO load(data.json)
+2014-10-18 23:47:43,225 INFO search called
+2014-10-18 23:47:43,226 INFO ('Search ran successfully. Projects found:', 14)
+2014-10-18 23:47:43,228 INFO 127.0.0.1 - - [18/Oct/2014 23:47:43] "GET /list HTTP/1.1" 200 -
+2014-10-18 23:47:52,578 INFO load(data.json)
+2014-10-18 23:47:52,578 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 23:47:52,578 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 23:47:52,579 INFO search called
+2014-10-18 23:47:52,580 INFO ('Search ran successfully. Projects found:', 14)
+2014-10-18 23:47:52,582 INFO load(data.json)
+2014-10-18 23:47:52,583 INFO search called
+2014-10-18 23:47:52,584 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,585 INFO load(data.json)
+2014-10-18 23:47:52,585 INFO search called
+2014-10-18 23:47:52,585 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,586 INFO load(data.json)
+2014-10-18 23:47:52,586 INFO search called
+2014-10-18 23:47:52,587 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,587 INFO load(data.json)
+2014-10-18 23:47:52,587 INFO search called
+2014-10-18 23:47:52,588 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,588 INFO load(data.json)
+2014-10-18 23:47:52,589 INFO search called
+2014-10-18 23:47:52,589 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,590 INFO load(data.json)
+2014-10-18 23:47:52,590 INFO search called
+2014-10-18 23:47:52,590 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,591 INFO load(data.json)
+2014-10-18 23:47:52,591 INFO search called
+2014-10-18 23:47:52,592 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,592 INFO load(data.json)
+2014-10-18 23:47:52,592 INFO search called
+2014-10-18 23:47:52,593 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,593 INFO load(data.json)
+2014-10-18 23:47:52,594 INFO search called
+2014-10-18 23:47:52,594 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,595 INFO load(data.json)
+2014-10-18 23:47:52,595 INFO search called
+2014-10-18 23:47:52,595 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,596 INFO load(data.json)
+2014-10-18 23:47:52,596 INFO search called
+2014-10-18 23:47:52,596 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,597 INFO load(data.json)
+2014-10-18 23:47:52,597 INFO search called
+2014-10-18 23:47:52,598 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,598 INFO load(data.json)
+2014-10-18 23:47:52,598 INFO search called
+2014-10-18 23:47:52,599 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,599 INFO load(data.json)
+2014-10-18 23:47:52,599 INFO search called
+2014-10-18 23:47:52,600 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,601 INFO load(data.json)
+2014-10-18 23:47:52,601 INFO search called
+2014-10-18 23:47:52,601 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,602 INFO load(data.json)
+2014-10-18 23:47:52,602 INFO search called
+2014-10-18 23:47:52,602 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,603 INFO load(data.json)
+2014-10-18 23:47:52,603 INFO search called
+2014-10-18 23:47:52,604 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,604 INFO load(data.json)
+2014-10-18 23:47:52,604 INFO search called
+2014-10-18 23:47:52,605 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,606 INFO load(data.json)
+2014-10-18 23:47:52,607 INFO search called
+2014-10-18 23:47:52,607 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,608 INFO load(data.json)
+2014-10-18 23:47:52,608 INFO search called
+2014-10-18 23:47:52,608 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,609 INFO load(data.json)
+2014-10-18 23:47:52,609 INFO search called
+2014-10-18 23:47:52,610 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,610 INFO load(data.json)
+2014-10-18 23:47:52,610 INFO search called
+2014-10-18 23:47:52,611 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,611 INFO load(data.json)
+2014-10-18 23:47:52,611 INFO search called
+2014-10-18 23:47:52,612 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,612 INFO load(data.json)
+2014-10-18 23:47:52,613 INFO search called
+2014-10-18 23:47:52,613 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,614 INFO load(data.json)
+2014-10-18 23:47:52,614 INFO search called
+2014-10-18 23:47:52,614 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,615 INFO load(data.json)
+2014-10-18 23:47:52,615 INFO search called
+2014-10-18 23:47:52,615 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,616 INFO load(data.json)
+2014-10-18 23:47:52,616 INFO search called
+2014-10-18 23:47:52,617 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,617 INFO load(data.json)
+2014-10-18 23:47:52,617 INFO search called
+2014-10-18 23:47:52,618 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,618 INFO load(data.json)
+2014-10-18 23:47:52,619 INFO search called
+2014-10-18 23:47:52,619 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,620 INFO load(data.json)
+2014-10-18 23:47:52,620 INFO search called
+2014-10-18 23:47:52,620 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,621 INFO load(data.json)
+2014-10-18 23:47:52,621 INFO search called
+2014-10-18 23:47:52,622 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,622 INFO load(data.json)
+2014-10-18 23:47:52,622 INFO search called
+2014-10-18 23:47:52,623 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,623 INFO load(data.json)
+2014-10-18 23:47:52,624 INFO search called
+2014-10-18 23:47:52,624 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,625 INFO load(data.json)
+2014-10-18 23:47:52,625 INFO search called
+2014-10-18 23:47:52,625 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,626 INFO load(data.json)
+2014-10-18 23:47:52,626 INFO search called
+2014-10-18 23:47:52,626 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,627 INFO load(data.json)
+2014-10-18 23:47:52,627 INFO search called
+2014-10-18 23:47:52,627 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,628 INFO load(data.json)
+2014-10-18 23:47:52,628 INFO search called
+2014-10-18 23:47:52,629 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,629 INFO load(data.json)
+2014-10-18 23:47:52,629 INFO search called
+2014-10-18 23:47:52,630 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,630 INFO load(data.json)
+2014-10-18 23:47:52,630 INFO search called
+2014-10-18 23:47:52,631 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,631 INFO load(data.json)
+2014-10-18 23:47:52,632 INFO search called
+2014-10-18 23:47:52,632 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,633 INFO load(data.json)
+2014-10-18 23:47:52,633 INFO search called
+2014-10-18 23:47:52,633 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,634 INFO load(data.json)
+2014-10-18 23:47:52,634 INFO search called
+2014-10-18 23:47:52,635 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,636 INFO load(data.json)
+2014-10-18 23:47:52,637 INFO search called
+2014-10-18 23:47:52,638 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,639 INFO load(data.json)
+2014-10-18 23:47:52,639 INFO search called
+2014-10-18 23:47:52,639 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,640 INFO load(data.json)
+2014-10-18 23:47:52,640 INFO search called
+2014-10-18 23:47:52,641 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,642 INFO load(data.json)
+2014-10-18 23:47:52,642 INFO search called
+2014-10-18 23:47:52,642 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,643 INFO load(data.json)
+2014-10-18 23:47:52,643 INFO search called
+2014-10-18 23:47:52,643 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,644 INFO load(data.json)
+2014-10-18 23:47:52,644 INFO search called
+2014-10-18 23:47:52,645 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,645 INFO load(data.json)
+2014-10-18 23:47:52,645 INFO search called
+2014-10-18 23:47:52,646 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,647 INFO load(data.json)
+2014-10-18 23:47:52,647 INFO search called
+2014-10-18 23:47:52,647 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,648 INFO load(data.json)
+2014-10-18 23:47:52,648 INFO search called
+2014-10-18 23:47:52,649 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,649 INFO load(data.json)
+2014-10-18 23:47:52,649 INFO search called
+2014-10-18 23:47:52,650 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,651 INFO load(data.json)
+2014-10-18 23:47:52,651 INFO search called
+2014-10-18 23:47:52,651 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,652 INFO load(data.json)
+2014-10-18 23:47:52,652 INFO search called
+2014-10-18 23:47:52,653 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,653 INFO load(data.json)
+2014-10-18 23:47:52,653 INFO search called
+2014-10-18 23:47:52,654 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,655 INFO load(data.json)
+2014-10-18 23:47:52,655 INFO search called
+2014-10-18 23:47:52,655 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,656 INFO load(data.json)
+2014-10-18 23:47:52,656 INFO search called
+2014-10-18 23:47:52,656 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,657 INFO load(data.json)
+2014-10-18 23:47:52,657 INFO search called
+2014-10-18 23:47:52,658 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,658 INFO load(data.json)
+2014-10-18 23:47:52,659 INFO search called
+2014-10-18 23:47:52,659 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,660 INFO load(data.json)
+2014-10-18 23:47:52,660 INFO search called
+2014-10-18 23:47:52,660 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,661 INFO load(data.json)
+2014-10-18 23:47:52,661 INFO search called
+2014-10-18 23:47:52,662 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,663 INFO load(data.json)
+2014-10-18 23:47:52,663 INFO search called
+2014-10-18 23:47:52,663 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,664 INFO load(data.json)
+2014-10-18 23:47:52,664 INFO search called
+2014-10-18 23:47:52,665 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,666 INFO load(data.json)
+2014-10-18 23:47:52,667 INFO search called
+2014-10-18 23:47:52,667 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,668 INFO load(data.json)
+2014-10-18 23:47:52,669 INFO search called
+2014-10-18 23:47:52,669 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,670 INFO load(data.json)
+2014-10-18 23:47:52,670 INFO search called
+2014-10-18 23:47:52,671 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,671 INFO load(data.json)
+2014-10-18 23:47:52,672 INFO search called
+2014-10-18 23:47:52,672 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,673 INFO load(data.json)
+2014-10-18 23:47:52,673 INFO search called
+2014-10-18 23:47:52,673 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,674 INFO load(data.json)
+2014-10-18 23:47:52,674 INFO search called
+2014-10-18 23:47:52,675 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,675 INFO load(data.json)
+2014-10-18 23:47:52,676 INFO search called
+2014-10-18 23:47:52,676 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,677 INFO load(data.json)
+2014-10-18 23:47:52,677 INFO search called
+2014-10-18 23:47:52,677 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,678 INFO load(data.json)
+2014-10-18 23:47:52,678 INFO search called
+2014-10-18 23:47:52,679 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,679 INFO load(data.json)
+2014-10-18 23:47:52,679 INFO search called
+2014-10-18 23:47:52,680 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,680 INFO load(data.json)
+2014-10-18 23:47:52,681 INFO search called
+2014-10-18 23:47:52,681 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,682 INFO load(data.json)
+2014-10-18 23:47:52,682 INFO search called
+2014-10-18 23:47:52,683 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,683 INFO load(data.json)
+2014-10-18 23:47:52,684 INFO search called
+2014-10-18 23:47:52,684 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,685 INFO load(data.json)
+2014-10-18 23:47:52,685 INFO search called
+2014-10-18 23:47:52,685 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,686 INFO load(data.json)
+2014-10-18 23:47:52,686 INFO search called
+2014-10-18 23:47:52,687 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,687 INFO load(data.json)
+2014-10-18 23:47:52,688 INFO search called
+2014-10-18 23:47:52,688 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,689 INFO load(data.json)
+2014-10-18 23:47:52,689 INFO search called
+2014-10-18 23:47:52,690 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,690 INFO load(data.json)
+2014-10-18 23:47:52,691 INFO search called
+2014-10-18 23:47:52,692 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,693 INFO load(data.json)
+2014-10-18 23:47:52,693 INFO search called
+2014-10-18 23:47:52,694 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,696 INFO load(data.json)
+2014-10-18 23:47:52,696 INFO search called
+2014-10-18 23:47:52,697 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,698 INFO load(data.json)
+2014-10-18 23:47:52,699 INFO search called
+2014-10-18 23:47:52,699 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,700 INFO load(data.json)
+2014-10-18 23:47:52,701 INFO search called
+2014-10-18 23:47:52,701 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,702 INFO load(data.json)
+2014-10-18 23:47:52,703 INFO search called
+2014-10-18 23:47:52,704 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,704 INFO load(data.json)
+2014-10-18 23:47:52,705 INFO search called
+2014-10-18 23:47:52,706 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,707 INFO load(data.json)
+2014-10-18 23:47:52,708 INFO search called
+2014-10-18 23:47:52,710 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,711 INFO load(data.json)
+2014-10-18 23:47:52,711 INFO search called
+2014-10-18 23:47:52,713 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,714 INFO load(data.json)
+2014-10-18 23:47:52,714 INFO search called
+2014-10-18 23:47:52,715 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,716 INFO load(data.json)
+2014-10-18 23:47:52,716 INFO search called
+2014-10-18 23:47:52,717 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,717 INFO load(data.json)
+2014-10-18 23:47:52,717 INFO search called
+2014-10-18 23:47:52,718 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,718 INFO load(data.json)
+2014-10-18 23:47:52,719 INFO search called
+2014-10-18 23:47:52,719 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,720 INFO load(data.json)
+2014-10-18 23:47:52,720 INFO search called
+2014-10-18 23:47:52,720 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,721 INFO load(data.json)
+2014-10-18 23:47:52,721 INFO search called
+2014-10-18 23:47:52,722 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,722 INFO load(data.json)
+2014-10-18 23:47:52,722 INFO search called
+2014-10-18 23:47:52,723 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,723 INFO load(data.json)
+2014-10-18 23:47:52,724 INFO search called
+2014-10-18 23:47:52,724 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,725 INFO load(data.json)
+2014-10-18 23:47:52,725 INFO search called
+2014-10-18 23:47:52,725 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,726 INFO load(data.json)
+2014-10-18 23:47:52,726 INFO search called
+2014-10-18 23:47:52,727 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,727 INFO load(data.json)
+2014-10-18 23:47:52,728 INFO search called
+2014-10-18 23:47:52,729 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,729 INFO load(data.json)
+2014-10-18 23:47:52,730 INFO search called
+2014-10-18 23:47:52,730 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,731 INFO load(data.json)
+2014-10-18 23:47:52,731 INFO search called
+2014-10-18 23:47:52,731 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,732 INFO load(data.json)
+2014-10-18 23:47:52,732 INFO search called
+2014-10-18 23:47:52,732 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,733 INFO load(data.json)
+2014-10-18 23:47:52,733 INFO search called
+2014-10-18 23:47:52,734 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,734 INFO load(data.json)
+2014-10-18 23:47:52,734 INFO search called
+2014-10-18 23:47:52,735 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,735 INFO load(data.json)
+2014-10-18 23:47:52,735 INFO search called
+2014-10-18 23:47:52,736 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,736 INFO load(data.json)
+2014-10-18 23:47:52,737 INFO search called
+2014-10-18 23:47:52,737 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,738 INFO load(data.json)
+2014-10-18 23:47:52,738 INFO search called
+2014-10-18 23:47:52,738 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,739 INFO load(data.json)
+2014-10-18 23:47:52,739 INFO search called
+2014-10-18 23:47:52,739 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,740 INFO load(data.json)
+2014-10-18 23:47:52,740 INFO search called
+2014-10-18 23:47:52,741 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,741 INFO load(data.json)
+2014-10-18 23:47:52,742 INFO search called
+2014-10-18 23:47:52,742 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,743 INFO load(data.json)
+2014-10-18 23:47:52,743 INFO search called
+2014-10-18 23:47:52,743 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,744 INFO load(data.json)
+2014-10-18 23:47:52,744 INFO search called
+2014-10-18 23:47:52,745 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,745 INFO load(data.json)
+2014-10-18 23:47:52,745 INFO search called
+2014-10-18 23:47:52,746 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,746 INFO load(data.json)
+2014-10-18 23:47:52,747 INFO search called
+2014-10-18 23:47:52,747 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,748 INFO load(data.json)
+2014-10-18 23:47:52,748 INFO search called
+2014-10-18 23:47:52,748 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,749 INFO load(data.json)
+2014-10-18 23:47:52,749 INFO search called
+2014-10-18 23:47:52,749 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,750 INFO load(data.json)
+2014-10-18 23:47:52,750 INFO search called
+2014-10-18 23:47:52,751 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,751 INFO load(data.json)
+2014-10-18 23:47:52,751 INFO search called
+2014-10-18 23:47:52,752 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,752 INFO load(data.json)
+2014-10-18 23:47:52,752 INFO search called
+2014-10-18 23:47:52,753 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,754 INFO load(data.json)
+2014-10-18 23:47:52,754 INFO search called
+2014-10-18 23:47:52,755 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,756 INFO load(data.json)
+2014-10-18 23:47:52,756 INFO search called
+2014-10-18 23:47:52,757 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,757 INFO load(data.json)
+2014-10-18 23:47:52,757 INFO search called
+2014-10-18 23:47:52,758 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 23:47:52,760 INFO 127.0.0.1 - - [18/Oct/2014 23:47:52] "GET /techniques HTTP/1.1" 200 -
+2014-10-18 23:47:59,053 INFO load(data.json)
+2014-10-18 23:47:59,054 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 23:47:59,054 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 23:47:59,058 INFO load(data.json)
+2014-10-18 23:47:59,059 INFO search called
+2014-10-18 23:47:59,059 INFO ('Search ran successfully. Projects found:', 14)
+2014-10-18 23:47:59,062 INFO 127.0.0.1 - - [18/Oct/2014 23:47:59] "GET /list HTTP/1.1" 200 -
+2014-10-18 23:48:05,114 INFO load(data.json)
+2014-10-18 23:48:05,114 INFO search called
+2014-10-18 23:48:05,115 INFO ('Search ran successfully. Projects found:', 14)
+2014-10-18 23:48:05,116 INFO 127.0.0.1 - - [18/Oct/2014 23:48:05] "GET / HTTP/1.1" 200 -
+2014-10-18 23:48:25,171 INFO load(data.json)
+2014-10-18 23:48:25,171 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 23:48:25,171 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 23:48:25,176 INFO load(data.json)
+2014-10-18 23:48:25,177 INFO search called
+2014-10-18 23:48:25,178 INFO ('Search ran successfully. Projects found:', 14)
+2014-10-18 23:48:25,181 INFO 127.0.0.1 - - [18/Oct/2014 23:48:25] "GET /list HTTP/1.1" 200 -
+2014-10-18 21:48:33,478 INFO load(data.json)
+2014-10-18 21:48:33,479 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 21:48:33,479 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 21:48:33,485 INFO load(data.json)
+2014-10-18 21:48:33,486 INFO search called
+2014-10-18 21:48:33,487 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 21:48:33,489 INFO 127.0.0.1 - - [18/Oct/2014 21:48:33] "POST /list HTTP/1.1" 200 -
+2014-10-18 21:48:51,312 INFO load(data.json)
+2014-10-18 21:48:51,313 INFO search called
+2014-10-18 21:48:51,313 INFO ('Search ran successfully. Projects found:', 14)
+2014-10-18 21:48:51,315 INFO 127.0.0.1 - - [18/Oct/2014 21:48:51] "GET / HTTP/1.1" 200 -
+2014-10-18 21:48:56,835 INFO load(data.json)
+2014-10-18 21:48:56,845 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 21:48:56,845 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 21:48:56,849 INFO load(data.json)
+2014-10-18 21:48:56,849 INFO search called
+2014-10-18 21:48:56,849 INFO ('Search ran successfully. Projects found:', 14)
+2014-10-18 21:48:56,851 INFO 127.0.0.1 - - [18/Oct/2014 21:48:56] "GET /list HTTP/1.1" 200 -
+2014-10-18 21:49:13,967 INFO load(data.json)
+2014-10-18 21:49:13,967 INFO search called
+2014-10-18 21:49:13,968 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 21:49:13,970 INFO 127.0.0.1 - - [18/Oct/2014 21:49:13] "GET /project/723728 HTTP/1.1" 200 -
+2014-10-18 21:49:30,586 INFO load(data.json)
+2014-10-18 21:49:30,586 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 21:49:30,586 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 21:49:30,589 INFO load(data.json)
+2014-10-18 21:49:30,589 INFO search called
+2014-10-18 21:49:30,590 INFO ('Search ran successfully. Projects found:', 14)
+2014-10-18 21:49:30,593 INFO 127.0.0.1 - - [18/Oct/2014 21:49:30] "GET /list HTTP/1.1" 200 -
+2014-10-18 21:49:39,663 INFO load(data.json)
+2014-10-18 21:49:39,663 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 21:49:39,663 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 21:49:39,666 INFO load(data.json)
+2014-10-18 21:49:39,667 INFO search called
+2014-10-18 21:49:39,668 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 21:49:39,669 INFO 127.0.0.1 - - [18/Oct/2014 21:49:39] "POST /list HTTP/1.1" 200 -
+2014-10-18 21:49:44,469 INFO load(data.json)
+2014-10-18 21:49:44,470 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 21:49:44,470 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 21:49:44,472 INFO load(data.json)
+2014-10-18 21:49:44,472 INFO search called
+2014-10-18 21:49:44,473 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 21:49:44,473 INFO 127.0.0.1 - - [18/Oct/2014 21:49:44] "POST /list HTTP/1.1" 200 -
+2014-10-18 21:49:52,422 INFO load(data.json)
+2014-10-18 21:49:52,423 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 21:49:52,423 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 21:49:52,429 INFO load(data.json)
+2014-10-18 21:49:52,429 INFO search called
+2014-10-18 21:49:52,430 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-18 21:49:52,432 INFO 127.0.0.1 - - [18/Oct/2014 21:49:52] "POST /list HTTP/1.1" 200 -
+2014-10-18 21:49:55,168 INFO load(data.json)
+2014-10-18 21:49:55,168 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 21:49:55,168 INFO get_techniques(database) returned 30 elements in a list
+2014-10-18 21:49:55,172 INFO load(data.json)
+2014-10-18 21:49:55,172 INFO search called
+2014-10-18 21:49:55,173 INFO ('Search ran successfully. Projects found:', 7)
+2014-10-18 21:49:55,175 INFO 127.0.0.1 - - [18/Oct/2014 21:49:55] "POST /list HTTP/1.1" 200 -
