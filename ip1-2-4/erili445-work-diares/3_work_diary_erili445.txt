@@ -1,0 +1,4 @@
+﻿15/10-14 (3h)
+
+Problem.
+Sökfunktionen har lite problem, den fungerade fint med alla testprojekt vi hade men nu när vi fick exempelprojekten i från klassen upptäckte vi lite problem. Om man sökte med mellanslag hittade man inte rätt saker eftersom vi splittade sökorden i våran sökfunktion. Det gjorde att om man sökte till exempel på 'hej anna' fick fram alla projekt som hade antingen hej eller anna i sig. Inte riktigt så det var tänkt, och verkligen inte praktiskt. Vi fixade det helt enkelt genom att inte splitta söktexten i sökfunktionen utan nu sker sökningen på hela strängar. Ytterliggare ett problem var att om man sökte efter ett specifikt id hittade man alla projekt vars id innehöll just det numret, så t.ex. sökte man efter projekt id '1' hittade man alla som hade ett projekt id innehållandes en '1'a. Det problemet fixade vi genom att byta ut våran 'in' i datalagret mot '==' för att matcha exakt istället.

@@ -1,0 +1,4 @@
+﻿14/10-14 (4h)
+
+Skrivit och skickat in systemdokumentationen. Vi använde Google docs för att skriva själva dokumentet. Google docs är väldigt smidigt när man vill jobba tillsammans på ett dokument samtidigt. Det är dock inte så smidigt när man vill lägga in bilder och formatera texten på ett snyggt sätt så för att göra det fick vi ladda ner filen i odt format och göra det i Libre Office, sedan konvertera till pdf. 
+För att få till ett slags specifikation för datalagret, vilka funktioner som används till vad och kopplar ihop med vilka andra funktioner osv använde vi ett program som heter doxygen. Doxygen läser igenom en given fil och listar upp alla funktioner med dess kommentarer som information. I det här fallet valde vi att doxygen skulle generera ett html dokument som jag la upp på astmatix och sedan länkade vi dit i själva dokumentet.
