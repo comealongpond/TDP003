@@ -1,7 +1,5 @@
-﻿15/10-14 (3h)
+﻿17/10-14 (1h)
 
-Problem.
-Vi har upptäckt att sökfunktionen inte fungerar som den ska. Detta var en överraskning med tanke på att den fungerade fint i alla våra testfall. Problemet är att om man söker med mellanslag så hittar man inte rätt saker eftersom våran sökfunktion splittar upp sökorden vid mellanslag och så den söker inte efter hela söksträngen utan efter varje ord i söksträngen ett i taget. Det fungerar bra tills man försöker söka efter flera ord samtidigt och bara vill matcha de projekt som har exakt den strängen man gav och inte bara innehåller ett eller flera av orden. Vi fixade det här genom att ta bort splitten på söksträngen och så nu sker sökningen på en hel sträng istället för separata ord, vilket ändå känns mer logisk eftersom söker man på t.ex 'hej anna' vill man ju bara hitta projekt som har BÅDA orden och inte alla projekt som har ett av dom.
-
-Vi tror att det är fixat nu, iallafall i våran testning fungerar det fint.
+En quickfix .
+Vi tyckte att det inte var varken elegant eller effektivt att visa sökresultaten på en helt ny sida så vi ordnade så att sökresultaten visas på samma sida under sökformet. Det var väldigt enkelt att ordna eftersom vi hade en sida som visade sökresultaten var det i princip bara att kopiera det mesta av den sidans html kod och lägga till under sökformet i söksidan. Vi la även till i flask en check som kollar om söksidan kallas med GET eller POST (if request.method==”POST”) och kallas den med GET så listar den alla projekt under sökformet genom att kalla en sökning med default parametrar, kallas den med POST skickar vi med alla parametrar givna av sökformet och kallar sökfunktionen därefter. För att sökformet inte skulle skicka till sökresultat sidan så ändrade vi bara formets action=”/search_result” till action=”/search”. Slutligen bytte vi url:n till söksidan från /search till /list eftersom det var ett krav. Det kändes som det var mycket att göra allt detta men det gick på en knapp timme och var väldigt enkelt.
 
