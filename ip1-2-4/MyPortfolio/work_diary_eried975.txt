@@ -1,3 +1,13 @@
+2014-06/10
+
+Idag har vi börjat jobba på installationsmanualen samt användarmanuel. Vi valde att dela upp arbetet och jobba på ett varsit utkast tills nästa gång vi ses. Sedan kan vi göra utkasten till fulla versioner tillsammans för att få kvaliten på dom så bra som möjligt och även se om vi missat någon punkt. 
+
+2014-14/10
+
+Idag har vi jobbat klart med Systemdokumentationen. För att få en bra och mer detaljerad beskrivning automatist av vårt system använde vi Doxygem. Den skapade ett fint träd över vårt system där man kan titta igenom för att få en mer detaljerad uppfattning av systemet.
+
+Vi skrev dokumentet i drive.google.com vilket gjorde att vi skrev dokumentet på bara några timmar. Det är kul att allt flyter på så bra nu i slutet av projektet.
+
 2014-16/10
 Idag har vi jobbat med att fixa lite buggar i systemet, saker vi inte tänkte på när datalagret skrevs. Det gick t.ex inte att göra en sökning på en mening med mer än ett ord. Nu fungerar det som det ska och vi är väldigt nöjda med resultatet. 
 
@@ -13,3 +23,11 @@ Vi har dessutom fixat en bugg på tekniksidan som gjorde att fel data lästes in
 Då kan vi skicka in information till datalagret och få ut detta igen till presentationslagret. Problemet var att vi tänkt fel rent logiskt i funktionen. Vi skrev om den så att den returnerar rätt innehåll men också att den inte returnerar en lista utan en Dictionary som vi kan få fram den informationen vi vill ur.
 
 Det tog inte någon lång tid alls att lösa detta men det är klart att man blir lite frustrerad innan man börjat felsöka. Vilken tur att det går bra för oss med felsökningen så vi inte behöver lägga en allt för stor tid på att lösa problem.
+
+2014-21/10
+
+Idag har vi haft vår testning av portfolion. Vi hittade 2 fel under den testningen. Det ena felet vart på vår sortering som inte ignorerade stora och små bokstäver(vilket flera grupper hade problem med). Men detta gick ganska enkelt att lösa.
+Det andra problemet var att vi inte kom till en egen felsida när en sida inte fanns. Detta gjorde vi enkelt efterssom flask har ett väldigt bra stöd för detta.
+
+Vi gick igenom alla testfall igen och all utdata är precis det vi vill ha.
+Efter testningen började vi skriva vår testdokumentation. Det gick väldigt bra och med hjälp av google drive gick det relativt fort att skriva dessutom. Nu finns det egentligen inte mer att göra förutom reflektionsdokumentet.
