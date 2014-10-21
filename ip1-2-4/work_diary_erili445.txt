@@ -1,5 +1,6 @@
-﻿06/10 – 14 (3h)
+﻿14/10-14 (4h)
 
-Idag har jag börjat skriva användarmanualen. Jag tog skärmklipp på alla de olika sidorna och punktade upp allting av intresse så jag sedan kunde skriva vad allting på respektive sida gjorde.
-Det var inte så svårt men det var lite jobb med att redigera skärmklippen i GIMP och sedan lägga till punkter som pekar på allt av intresse (länkar och texter etc.). 
-Eftersom vi delade upp arbetet med manualerna jämfört med att skriva allting tillsammans tidigare gick det fortare och det blev bättre resultat. 
+Skrivit och skickat in systemdokumentationen.
+Vi använde Google docs för att skriva dokumentet och jag måste säga att Google docs har överraskat mig. Det är ett helt fantastiskt verktyg för att skriva ett dokument tillsammans med någon annan. En nackdel med google docs är dess begränsade funktionalitet när det kommer till formatering. För att få till en snygg framsida och fixa så att headern och footern inte visas på startsidan var vi tvungna att ladda ner filen i odt format och fixa till den i Libre Office och sedan skicka in den som pdf. 
+
+För själva systemspecifikationen, vilka funktioner i datalagret som gör vad och är beroende av vad osv använde vi oss av ett program som hette doxygen. Doxygen är ett program som körs i linux terminalen och genererar ett HTML dokument utifrån kommentarerna i filen man vill generera för, i vårat fall datalagret. Doxygen var snabbt att sätta sig in i och fungerade direkt.
