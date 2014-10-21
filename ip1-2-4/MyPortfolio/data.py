@@ -11,7 +11,6 @@ def log_call(message, type_of = 'info'):
     Usage: log_call(message)"""
     type_of_list = {'info' : logging.info, 'warning' : logging.warning}
     logging.basicConfig(filename = 'datalog.log', level = logging.INFO , format='%(asctime)s %(levelname)s %(message)s')
-    #logging.warning(message)
     type_of_list[type_of](message)
     logging.debug(message)
 
@@ -25,7 +24,7 @@ def load(filename):
             return json_data
     except ValueError as e:
         log_call((str(e) +' in database file') , 'warning')
-        log_call('load(' + filename + ') failed. file does not exist.')
+        #log_call('load(' + filename + ') failed. file does not exist.')
     except FileNotFoundError:
         log_call('Database file was not found!', 'warning')
 
@@ -107,8 +106,11 @@ def sort_project_list(project_list, sort_by , sort_order):
         sort_order = True
     elif sort_order == 'asc':
         sort_order = False
-    #project_list = sorted(project_list, key=operator.itemgetter(sort_by), reverse=sort_order) #sorts the project_list by "sort_by". reverse makes the sort order reverse or not.
-    project_list = sorted(project_list, key= lambda k: k[sort_by], reverse = sort_order)
+    #Om sorteringen är efter en str ska vi ignorera lowercase annars är det en int vi försöker sortera och då kan vi inte använda lower.
+    try: 
+        project_list = sorted(project_list, key= lambda k: k[sort_by].lower(), reverse = sort_order)
+    except:
+        project_list = sorted(project_list, key= lambda k: k[sort_by], reverse = sort_order)
     return project_list
 
 

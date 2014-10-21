@@ -5,9 +5,10 @@
 	"start_date": "1978-09-05",
 	"end_date": "2005-11-10",
 	"course_id": "DT42",
+	"lulz_had": "0",
 	"course_name": "Calculating The Answer",
 	"short_description": "Projektet omfattar ett försök om 48,816 timmars arbete i att konstruera en maskin som kan ge det slutgiltiga svaret på den yttersta frågan om livet, universum och allting. Tyvärr slutade projektet inte som tänkt då programmet alltid returnerade 42.  ",
-	"long_description": "I ett försök att hitta svaret på den yttersta frågan, om livet, universum och allting, valde vi, en grupp om 10 personer, att konstruera ett program. Ett program avancerat nog att kalkylera och evaluera de miljontals variabler som detta innefattar, samt returnera svaret på ett enkelt och mänskligt förståeligt format.\\n\\nUnder de första 3 åren arbetade vi 10 fulltid med att konstruera flödesscheman, tänka ut variabler samt vilka möjliga funktioner detta projekt skulle innefatta.\\nMånga azgoter, fallande petunior och valar senare  kom vi fram till ett fungerande koncept som revolverar runt tanken att man itererar genom meningar i ett intervall av känslor. For meaning in da_feels.\\nMed tanke på allt som programmet skulle gå igenom tog den första körningen 10 år, men returnerade bara svaret 42. \\nDe 10 senaste åren har lagts på felsökning och effektiviserande av programmet, men det returnerar fortfarande enbart 42.\\nEfter att allas hjärnor blivit till äggröra skulle vi vilja avsluta med några väl valda ord, innan vi lägger ner projektet, citerade av Prostetnic Vogon Jeltz.\\n\\n'Oooo fläskige fontanell, din smet bestryker mig.\\nMed slibbfalusker ur en guttubral skrafån.\\nVid mina förfäders polyper vill jag skåda, hur mjälla kakakläckans ögon smäktar i sin låda,\\noch eljest dränk min grämjelses garott lim av torsk som aldrig förr!' ",
+	"long_description": "I ett försök att hitta svaret på den yttersta frågan, om livet, universum och allting, valde vi, en grupp om 10 personer, att konstruera ett program. Ett program avancerat nog att kalkylera och evaluera de miljontals variabler som detta innefattar, samt returnera svaret på ett enkelt och mänskligt förståeligt format.Under de första 3 åren arbetade vi 10 fulltid med att konstruera flödesscheman, tänka ut variabler samt vilka möjliga funktioner detta projekt skulle innefatta.Många azgoter, fallande petunior och valar senare  kom vi fram till ett fungerande koncept som revolverar runt tanken att man itererar genom meningar i ett intervall av känslor. For meaning in da_feels.Med tanke på allt som programmet skulle gå igenom tog den första körningen 10 år, men returnerade bara svaret 42. De 10 senaste åren har lagts på felsökning och effektiviserande av programmet, men det returnerar fortfarande enbart 42.Efter att allas hjärnor blivit till äggröra skulle vi vilja avsluta med några väl valda ord, innan vi lägger ner projektet, citerade av Prostetnic Vogon Jeltz.'Oooo fläskige fontanell, din smet bestryker mig.Med slibbfalusker ur en guttubral skrafån.Vid mina förfäders polyper vill jag skåda, hur mjälla kakakläckans ögon smäktar i sin låda,och eljest dränk min grämjelses garott lim av torsk som aldrig förr!' ",
 	"small_image": "alest170_sign.jpg",
 	"big_image": "alest170_cube.jpg",
 	"group_size": 10,
@@ -38,6 +39,7 @@
 	"course_id": "TDP005",
 	"end_date": "2010-12-17",
 	"project_no": 414,
+	"lulz_had": "0",
 	"big_image": "daner045_johlj260_shapesurvival_big.png"
     },
     {
@@ -72,6 +74,7 @@
         "start_date": "2001-01-01",
         "external_link": "http://www.koenigsegg.com/models/ccx/",
         "group_size": 50,
+	"lulz_had": "0",
         "long_description": "<b>The spirit of performance</b><br>The CCX is the third generation from Koenigsegg to comply with global safety and environmental regulations, making it eligible for sale anywhere in the world. The performance of the car is staggering, as shown on the famous BBC program, Top Gear, where the CCX took the lap record ahead of the traditional, more famous supercar competition. The record-breaking CCX was developed to deliver superior performance \u2013 both on the track and on the road. We also wanted to show a clear design heritage from its predecessor and avoid following design trends. With the CCX, we maintained the distinctive CC shape and enhanced its unique appearance with tighter lines and a more aggressive stance.<br><br><b>Flow motion</b><br>The award-winning aerodynamics of the CCX transmit the strength and fluidity of its design. It has been built to maximize both top speed and efficiency. Every aspect of this machine serves a fundamental purpose. There are no gadgets or unnecessary features on the car - only elements that actively contribute to efficiency and purity.<br><br><b>Leaving others behind</b><br>The 806 Bhp engine, developed and assembled by Koenigsegg, delivers unmatched power in terms of its size and weight. At the same time, it complies with the toughest emission regulations worldwide. The engine has been built to last and to be driven to the limit.<br><br><b>Equipment</b><br>Dual Airbags, detachable storable hardtop with glass roof, power windows, rear wing, adjustable pedals and steering column, adjustable seats in rake and length, carbon ceramic brakes with ABS, hydraulic lifting system, power steering, power brakes, satnav, MP3 Player, USB connection, climate control, digital warning and info system, G sensor, alarm, tyre monitoring system, silver key, leather carpets, roof stowage, bag, car cover.",
         "big_image": "ccx.jpg",
         "techniques_used": [
@@ -85,7 +88,7 @@
 	"start_date": "2012-06-20",
 	"short_description": "Fulvinsbryggning är en tradition vid Linköping Universitet. Men hur brygger man eget vin med enkla medel som finns i varje hem? Det tar vi reda på.",
 	"course_name": "Förberedande kurs inför universitetsstudier",
-	"long_description":"Vi började med att ta reda på vilket sätt som det bör bli godast vin utav. Efter 3 veckor av dagligt fulvinsprovning hade vi kommit fram till det absolut bästa altenativet. Vi valde att brygga med en kombination av saft och annat smått och gått som torkat frukt och bär.\\n Efter långa nätter på biblioteket och intranätet har vi hittat det absolut mest magnifika receptet på fulvin. Att brygga detta fulvin är så precist att vi fick flytta in i ett munktempel i 2 år och uppnå nirvana. \\n Därefter var vi tvugna att utmana och vinna över den högsta munken i fulvinshäfvning. Inte fören då hade vi tillräckliga förkunskapskrav för att få brygga ett så fint fulvin. Vi åkte till Narnia för att börja plocka bären och frukterna till vårt regnbågsvin. Med en gudomlig blandning av bär och frukt i universums alla färger begav vi oss till Fylke för att brygga vinet. För att brygga vinet gjorde vi på följande sätt:Vi blandade ihop saft, vatten och socker i ett jäskärl, sedan lade vi till vinjästen. Detta jästa sedan i 1-2 dygn innan vi började göra i ordning nästa del. \\n Vi sköljde bären och frukten om det nu skulle finnas några orenheter på den. Sedan hällde vi kokande vatten över frukten. När det svalnat hade vi i enzymer, socker och vinsvavla. När det svalnat ännu mer tillsatte vi den jäsande saften. Detta ska sedan stå i 10-13 dagar för jäsning. \\n Sedan dricker man allt helt utan att sila eller ta bort frukten och bären. Det blir något helt annat än vad man är van med, men med all förberedning blir det väldigt mycket bättre än vanligt fulvin.",
+	"long_description":"Vi började med att ta reda på vilket sätt som det bör bli godast vin utav. Efter 3 veckor av dagligt fulvinsprovning hade vi kommit fram till det absolut bästa altenativet. Vi valde att brygga med en kombination av saft och annat smått och gått som torkat frukt och bär. Efter långa nätter på biblioteket och intranätet har vi hittat det absolut mest magnifika receptet på fulvin. Att brygga detta fulvin är så precist att vi fick flytta in i ett munktempel i 2 år och uppnå nirvana.  Därefter var vi tvugna att utmana och vinna över den högsta munken i fulvinshäfvning. Inte fören då hade vi tillräckliga förkunskapskrav för att få brygga ett så fint fulvin. Vi åkte till Narnia för att börja plocka bären och frukterna till vårt regnbågsvin. Med en gudomlig blandning av bär och frukt i universums alla färger begav vi oss till Fylke för att brygga vinet. För att brygga vinet gjorde vi på följande sätt:Vi blandade ihop saft, vatten och socker i ett jäskärl, sedan lade vi till vinjästen. Detta jästa sedan i 1-2 dygn innan vi började göra i ordning nästa del.  Vi sköljde bären och frukten om det nu skulle finnas några orenheter på den. Sedan hällde vi kokande vatten över frukten. När det svalnat hade vi i enzymer, socker och vinsvavla. När det svalnat ännu mer tillsatte vi den jäsande saften. Detta ska sedan stå i 10-13 dagar för jäsning.  Sedan dricker man allt helt utan att sila eller ta bort frukten och bären. Det blir något helt annat än vad man är van med, men med all förberedning blir det väldigt mycket bättre än vanligt fulvin.",
 	"group_size": 2,
 	"academic_credits": "PhD",
 	"lulz_had": "5",
@@ -121,6 +124,7 @@
 	"course_id": "F1$HY",
 	"end_date": "2013-03-08",
 	"project_no": 88,
+	"lulz_had": "0",
 	"big_image": "fredu953-500x400_OilPaintingGreen_e307b81271da441fb10dd23ae660ec65.jpg"
     },
     {
@@ -135,6 +139,7 @@
 	"techniques_used": [ "c++", "VHDL", "java", "Assembler", "Mikrokod", "Kaffe" ],
 	"project_name": "Datorkonstruktion",
 	"course_id": "TDP003",
+	"lulz_had": "0",
 	"end_date": "2014-05-16",
 	"project_no": 404,
 	"big_image": "datorkonstruktion_big.jpg"
@@ -159,6 +164,7 @@
 	"course_id": "TDP003",
 	"end_date": "2016-09-06",
 	"project_no": 1,
+	"lulz_had": "0",
 	"big_image": "ai_big.png"
     },
     {
@@ -167,7 +173,7 @@
 	"approach": "Skriv pseudokod och flödeschema inför projektet, sök efter felkällor.Påbörja sedan projektet",
 	"group_size": 1337,
 	"equipment": "Penna, papper samt en lämplig mängd kaffe",
-	"long_description": "Innan man påbörjar ett project är det viktigt att ha en bra plan för hur man ska lösa kommande svårigheter.\\nProjektet inleddes därför med att skriva pseudukod. I och med detta blir det lättare att förutspå kommande problem och svårigheter.\\nSedan skapas ett flödesschema för att se hur allt kommer att fungera.\\nSom test skrivs allt i python3. Eftersom detta är ett språk vi har erhållit mest kunskap om.\\nEn felkälla kan vara att UTF-8 inte används. Detta behöver testas innan allting blir klart.\\nEfter att allt förarbete är klart börjar det skrivas. För att få bättre plats för hårdvara skrivs C först och sedan hårdvara inuti C--.",
+	"long_description": "Innan man påbörjar ett project är det viktigt att ha en bra plan för hur man ska lösa kommande svårigheter.Projektet inleddes därför med att skriva pseudukod. I och med detta blir det lättare att förutspå kommande problem och svårigheter.Sedan skapas ett flödesschema för att se hur allt kommer att fungera.Som test skrivs allt i python3. Eftersom detta är ett språk vi har erhållit mest kunskap om.En felkälla kan vara att UTF-8 inte används. Detta behöver testas innan allting blir klart.Efter att allt förarbete är klart börjar det skrivas. För att få bättre plats för hårdvara skrivs C först och sedan hårdvara inuti C--.",
 	"small_image": "hargr213rasjo332min.png",
 	"techniques_used": [
 	    "python"
@@ -175,8 +181,9 @@
 	"project_name": "Learning advanced writing in C--",
 	"end_date": "2035-11-03",
 	"project_no": 69,
+	"course_id" : "",
+	"lulz_had": "0",
 	"big_image":"hargr213rasjo332bild.png"
-
     },
     {
         "course_id": "TDP003",
@@ -235,6 +242,7 @@
 	"small_image": "calc_terminal.png",
 	"big_image": "calc_code.png",
 	"group_size": 1,
+	"lulz_had": "0",
 	"external_link": "/project/1"
     },
     {

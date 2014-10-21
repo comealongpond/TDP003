@@ -3,9 +3,15 @@ from flask import Flask
 from flask import render_template
 from flask import request
 from flask import redirect
+from flask import abort
 import data
 
 app = Flask(__name__)
+
+@app.errorhandler(404)
+def page_not_found(e):
+    return render_template('404.html'), 404
+
 @app.route('/')
 def index():
     db = data.load('data.json')
@@ -33,7 +39,7 @@ def show_project(pid):
         print(project_var)
         return render_template("project.html", title="project <pid>", projectid = pid, project = project_var)
     except:
-        return 'Project not found<a href="/"> Go back </a>'
+        abort(404) #give error 404
 
 @app.route('/list', methods = ['GET', 'POST'])
 def search_page():
