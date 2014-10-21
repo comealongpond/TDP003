@@ -25010,3 +25010,86 @@
 2014-10-21 09:33:44,076 INFO search called
 2014-10-21 09:33:44,076 INFO ('Search ran successfully. Projects found:', 14)
 2014-10-21 09:33:44,077 INFO 127.0.0.1 - - [21/Oct/2014 09:33:44] "GET /list HTTP/1.1" 200 -
+2014-10-21 09:46:32,184 INFO load(data.json)
+2014-10-21 09:46:32,184 INFO get_techniques(database) returned 27 elements in a list
+2014-10-21 09:46:32,185 INFO get_techniques(database) returned 27 elements in a list
+2014-10-21 09:46:32,205 INFO load(data.json)
+2014-10-21 09:46:32,205 INFO search called
+2014-10-21 09:46:32,205 INFO ('Search ran successfully. Projects found:', 14)
+2014-10-21 09:46:32,207 INFO 127.0.0.1 - - [21/Oct/2014 09:46:32] "GET /list HTTP/1.1" 200 -
+2014-10-21 09:46:33,755 INFO load(data.json)
+2014-10-21 09:46:33,755 INFO search called
+2014-10-21 09:46:33,756 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-21 09:46:33,772 INFO 127.0.0.1 - - [21/Oct/2014 09:46:33] "GET /project/13 HTTP/1.1" 200 -
+2014-10-21 09:46:44,776 INFO load(data.json)
+2014-10-21 09:46:44,777 INFO search called
+2014-10-21 09:46:44,778 INFO ('Search ran successfully. Projects found:', 0)
+2014-10-21 09:46:44,791 INFO 127.0.0.1 - - [21/Oct/2014 09:46:44] "GET /project/13545 HTTP/1.1" 500 -
+2014-10-21 09:46:44,801 INFO 127.0.0.1 - - [21/Oct/2014 09:46:44] "GET /project/13545?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2014-10-21 09:46:44,802 INFO 127.0.0.1 - - [21/Oct/2014 09:46:44] "GET /project/13545?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2014-10-21 09:46:44,804 INFO 127.0.0.1 - - [21/Oct/2014 09:46:44] "GET /project/13545?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2014-10-21 09:46:44,843 INFO 127.0.0.1 - - [21/Oct/2014 09:46:44] "GET /project/13545?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2014-10-21 09:46:44,847 INFO 127.0.0.1 - - [21/Oct/2014 09:46:44] "GET /project/13545?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+2014-10-21 09:46:44,890 INFO 127.0.0.1 - - [21/Oct/2014 09:46:44] "GET /project/13545?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2014-10-21 09:46:48,931 INFO load(data.json)
+2014-10-21 09:46:48,932 INFO search called
+2014-10-21 09:46:48,933 INFO ('Search ran successfully. Projects found:', 0)
+2014-10-21 09:46:48,943 INFO 127.0.0.1 - - [21/Oct/2014 09:46:48] "GET /project/fd HTTP/1.1" 500 -
+2014-10-21 09:46:48,953 INFO 127.0.0.1 - - [21/Oct/2014 09:46:48] "GET /project/fd?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2014-10-21 09:46:48,954 INFO 127.0.0.1 - - [21/Oct/2014 09:46:48] "GET /project/fd?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2014-10-21 09:46:48,955 INFO 127.0.0.1 - - [21/Oct/2014 09:46:48] "GET /project/fd?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2014-10-21 09:46:48,992 INFO 127.0.0.1 - - [21/Oct/2014 09:46:48] "GET /project/fd?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2014-10-21 09:46:48,997 INFO 127.0.0.1 - - [21/Oct/2014 09:46:48] "GET /project/fd?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+2014-10-21 09:46:49,037 INFO 127.0.0.1 - - [21/Oct/2014 09:46:49] "GET /project/fd?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2014-10-21 09:46:54,918 INFO load(data.json)
+2014-10-21 09:46:54,918 INFO search called
+2014-10-21 09:46:54,919 INFO ('Search ran successfully. Projects found:', 14)
+2014-10-21 09:46:54,927 INFO 127.0.0.1 - - [21/Oct/2014 09:46:54] "GET / HTTP/1.1" 200 -
+2014-10-21 09:48:00,011 INFO load(data.json)
+2014-10-21 09:48:00,012 INFO get_techniques(database) returned 27 elements in a list
+2014-10-21 09:48:00,012 INFO get_techniques(database) returned 27 elements in a list
+2014-10-21 09:48:00,016 INFO load(data.json)
+2014-10-21 09:48:00,017 INFO search called
+2014-10-21 09:48:00,017 INFO ('Search ran successfully. Projects found:', 14)
+2014-10-21 09:48:00,019 INFO 127.0.0.1 - - [21/Oct/2014 09:48:00] "GET /list HTTP/1.1" 200 -
+2014-10-21 09:48:01,030 INFO load(data.json)
+2014-10-21 09:48:01,030 INFO search called
+2014-10-21 09:48:01,031 INFO ('Search ran successfully. Projects found:', 1)
+2014-10-21 09:48:01,032 INFO 127.0.0.1 - - [21/Oct/2014 09:48:01] "GET /project/13 HTTP/1.1" 200 -
+2014-10-21 09:48:04,859 INFO load(data.json)
+2014-10-21 09:48:04,859 INFO search called
+2014-10-21 09:48:04,860 INFO ('Search ran successfully. Projects found:', 0)
+2014-10-21 09:48:04,867 INFO 127.0.0.1 - - [21/Oct/2014 09:48:04] "GET /project/d HTTP/1.1" 500 -
+2014-10-21 09:48:04,877 INFO 127.0.0.1 - - [21/Oct/2014 09:48:04] "GET /project/d?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2014-10-21 09:48:04,878 INFO 127.0.0.1 - - [21/Oct/2014 09:48:04] "GET /project/d?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2014-10-21 09:48:04,880 INFO 127.0.0.1 - - [21/Oct/2014 09:48:04] "GET /project/d?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2014-10-21 09:48:04,919 INFO 127.0.0.1 - - [21/Oct/2014 09:48:04] "GET /project/d?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2014-10-21 09:48:04,923 INFO 127.0.0.1 - - [21/Oct/2014 09:48:04] "GET /project/d?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+2014-10-21 09:48:04,965 INFO 127.0.0.1 - - [21/Oct/2014 09:48:04] "GET /project/d?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2014-10-21 09:48:21,325 INFO load(data.json)
+2014-10-21 09:48:21,325 INFO search called
+2014-10-21 09:48:21,325 INFO ('Search ran successfully. Projects found:', 0)
+2014-10-21 09:48:21,332 INFO 127.0.0.1 - - [21/Oct/2014 09:48:21] "GET /project/d HTTP/1.1" 500 -
+2014-10-21 09:48:21,341 INFO 127.0.0.1 - - [21/Oct/2014 09:48:21] "GET /project/d?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2014-10-21 09:48:21,342 INFO 127.0.0.1 - - [21/Oct/2014 09:48:21] "GET /project/d?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2014-10-21 09:48:21,343 INFO 127.0.0.1 - - [21/Oct/2014 09:48:21] "GET /project/d?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2014-10-21 09:48:21,362 INFO 127.0.0.1 - - [21/Oct/2014 09:48:21] "GET /project/d?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2014-10-21 09:48:21,364 INFO 127.0.0.1 - - [21/Oct/2014 09:48:21] "GET /project/d?__debugger__=yes&cmd=resource&f=source.png HTTP/1.1" 200 -
+2014-10-21 09:49:13,968 INFO  * Detected change in 'myFlaskProject.py', reloading
+2014-10-21 09:49:15,861 INFO load(data.json)
+2014-10-21 09:49:15,861 INFO search called
+2014-10-21 09:49:15,862 INFO ('Search ran successfully. Projects found:', 0)
+2014-10-21 09:49:15,874 INFO 127.0.0.1 - - [21/Oct/2014 09:49:15] "GET /project/13dada HTTP/1.1" 200 -
+2014-10-21 09:49:42,309 INFO  * Detected change in 'myFlaskProject.py', reloading
+2014-10-21 09:49:45,217 INFO load(data.json)
+2014-10-21 09:49:45,217 INFO search called
+2014-10-21 09:49:45,218 INFO ('Search ran successfully. Projects found:', 0)
+2014-10-21 09:49:45,230 INFO 127.0.0.1 - - [21/Oct/2014 09:49:45] "GET /project/13dda HTTP/1.1" 200 -
+2014-10-21 09:49:47,037 INFO load(data.json)
+2014-10-21 09:49:47,037 INFO search called
+2014-10-21 09:49:47,038 INFO ('Search ran successfully. Projects found:', 14)
+2014-10-21 09:49:47,046 INFO 127.0.0.1 - - [21/Oct/2014 09:49:47] "GET / HTTP/1.1" 200 -
+2014-10-21 09:49:52,390 INFO load(data.json)
+2014-10-21 09:49:52,390 INFO search called
+2014-10-21 09:49:52,390 INFO ('Search ran successfully. Projects found:', 14)
+2014-10-21 09:49:52,391 INFO 127.0.0.1 - - [21/Oct/2014 09:49:52] "GET / HTTP/1.1" 200 -
