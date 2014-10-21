@@ -1,6 +1,7 @@
-﻿14/10-14 (4h)
+﻿15/10-14 (3h)
 
-Skrivit och skickat in systemdokumentationen.
-Vi använde Google docs för att skriva dokumentet och jag måste säga att Google docs har överraskat mig. Det är ett helt fantastiskt verktyg för att skriva ett dokument tillsammans med någon annan. En nackdel med google docs är dess begränsade funktionalitet när det kommer till formatering. För att få till en snygg framsida och fixa så att headern och footern inte visas på startsidan var vi tvungna att ladda ner filen i odt format och fixa till den i Libre Office och sedan skicka in den som pdf. 
+Problem.
+Vi har upptäckt att sökfunktionen inte fungerar som den ska. Detta var en överraskning med tanke på att den fungerade fint i alla våra testfall. Problemet är att om man söker med mellanslag så hittar man inte rätt saker eftersom våran sökfunktion splittar upp sökorden vid mellanslag och så den söker inte efter hela söksträngen utan efter varje ord i söksträngen ett i taget. Det fungerar bra tills man försöker söka efter flera ord samtidigt och bara vill matcha de projekt som har exakt den strängen man gav och inte bara innehåller ett eller flera av orden. Vi fixade det här genom att ta bort splitten på söksträngen och så nu sker sökningen på en hel sträng istället för separata ord, vilket ändå känns mer logisk eftersom söker man på t.ex 'hej anna' vill man ju bara hitta projekt som har BÅDA orden och inte alla projekt som har ett av dom.
 
-För själva systemspecifikationen, vilka funktioner i datalagret som gör vad och är beroende av vad osv använde vi oss av ett program som hette doxygen. Doxygen är ett program som körs i linux terminalen och genererar ett HTML dokument utifrån kommentarerna i filen man vill generera för, i vårat fall datalagret. Doxygen var snabbt att sätta sig in i och fungerade direkt.
+Vi tror att det är fixat nu, iallafall i våran testning fungerar det fint.
+
