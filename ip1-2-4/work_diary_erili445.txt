@@ -1,0 +1,5 @@
+﻿06/10 – 14 (3h)
+
+Idag har jag börjat skriva användarmanualen. Jag tog skärmklipp på alla de olika sidorna och punktade upp allting av intresse så jag sedan kunde skriva vad allting på respektive sida gjorde.
+Det var inte så svårt men det var lite jobb med att redigera skärmklippen i GIMP och sedan lägga till punkter som pekar på allt av intresse (länkar och texter etc.). 
+Eftersom vi delade upp arbetet med manualerna jämfört med att skriva allting tillsammans tidigare gick det fortare och det blev bättre resultat. 
